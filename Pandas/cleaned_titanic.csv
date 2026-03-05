@@ -1,0 +1,826 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked_Q,Embarked_S
+1,0,3,"braund, mr. owen harris",0,22,1,0,A/5 21171,0.014151057562208049,False,True
+2,1,1,"cumings, mrs. john bradley (florence briggs thayer)",1,38,1,0,PC 17599,0.13913573538264068,False,False
+3,1,3,"heikkinen, miss. laina",1,26,0,0,STON/O2. 3101282,0.015468569817999833,False,True
+4,1,1,"futrelle, mrs. jacques heath (lily may peel)",1,35,1,0,113803,0.10364429745562033,False,True
+5,0,3,"allen, mr. william henry",0,35,0,0,373450,0.015712553569072387,False,True
+6,0,3,"moran, mr. james",0,28,0,0,330877,0.01650950209357577,True,False
+7,0,1,"mccarthy, mr. timothy j",0,54,0,0,17463,0.10122885832000206,False,True
+9,1,3,"johnson, mrs. oscar w (elisabeth vilhelmina berg)",1,27,0,2,347742,0.021730754366528396,False,True
+10,1,2,"nasser, mrs. nicholas (adele achem)",1,14,1,0,237736,0.058694292654020104,False,False
+11,1,3,"sandstrom, miss. marguerite rut",1,4,1,1,PP 9549,0.03259622914329302,False,True
+13,0,3,"saundercock, mr. william henry",0,20,0,0,A/5. 2151,0.015712553569072387,False,True
+14,0,3,"andersson, mr. anders johan",0,39,1,5,347082,0.06104473451835265,False,True
+15,0,3,"vestrom, miss. hulda amanda adolfina",1,14,0,0,350406,0.015330377421392339,False,True
+18,1,2,"williams, mr. charles eugene",0,28,0,0,244373,0.025374310111545468,False,True
+19,0,3,"vander planke, mrs. julius (emelia maria vandemoortele)",1,31,1,0,345763,0.03513366015444757,False,True
+20,1,3,"masselmani, mrs. fatima",1,28,0,0,2649,0.014102260811993537,False,False
+21,0,2,"fynney, mr. joseph j",0,35,0,0,239865,0.050748620223090936,False,True
+22,1,2,"beesley, mr. lawrence",0,34,0,0,248698,0.025374310111545468,False,True
+23,1,3,"mcgowan, miss. anna ""annie""",1,15,0,0,330923,0.015671954672893913,True,False
+24,1,1,"sloper, mr. william thompson",0,28,0,0,113788,0.06929138530460492,False,True
+25,0,3,"palsson, miss. torborg danira",1,8,3,1,349909,0.04113566043083236,False,True
+26,1,3,"asplund, mrs. carl oscar (selma augusta emilia johansson)",1,38,1,5,347077,0.061264319894317944,False,True
+27,0,3,"emir, mr. farred chehab",0,28,0,0,2631,0.014102260811993537,False,False
+28,0,1,"fortune, mr. charles alexander",0,19,3,2,19950,0.5133418122566505,False,True
+29,1,3,"o'dwyer, miss. ellen ""nellie""",1,28,0,0,330959,0.01537917417160685,True,False
+30,0,3,"todoroff, mr. lalio",0,28,0,0,349216,0.015411575213749284,False,True
+31,0,1,"uruchurtu, don. manuel e",0,40,0,0,PC 17601,0.05410739813385612,False,False
+32,1,1,"spencer, mrs. william augustus (marie eugenie)",1,28,1,0,PC 17569,0.2859895551532101,False,False
+33,1,3,"glynn, miss. mary agatha",1,28,0,0,335677,0.015126992566498259,True,False
+35,0,1,"meyer, mr. edgar joseph",0,28,1,0,PC 17604,0.16038672010106,False,False
+36,0,1,"holverson, mr. alexander oskar",0,42,1,0,113789,0.10149724044618187,False,True
+37,1,3,"mamee, mr. hanna",0,28,0,0,2677,0.014110458666029575,False,False
+38,0,3,"cann, mr. ernest charles",0,21,0,0,A./5. 2152,0.015712553569072387,False,True
+39,0,3,"vander planke, miss. augusta maria",1,18,2,0,345764,0.03513366015444757,False,True
+40,1,3,"nicola-yarred, miss. jamila",1,14,1,0,2651,0.021942337075458514,False,False
+41,0,3,"ahlin, mrs. johan (johanna persdotter larsson)",1,40,1,0,7546,0.018493968331299484,False,True
+42,0,2,"turpin, mrs. william john robert (dorothy ann wonnacott)",1,27,1,0,11668,0.04098927018018883,False,True
+43,0,3,"kraeff, mr. theodor",0,28,0,0,349253,0.015411575213749284,False,False
+44,1,2,"laroche, miss. simonne marie anne andree",1,3,1,2,SC/Paris 2123,0.08115719346076702,False,False
+45,1,3,"devaney, miss. margaret delia",1,19,0,0,330958,0.01537917417160685,True,False
+46,0,3,"rogers, mr. william john",0,28,0,0,S.C./A.4. 23567,0.015712553569072387,False,True
+47,0,3,"lennon, mr. denis",0,28,1,0,370371,0.030253985132996517,True,False
+48,1,3,"o'driscoll, miss. bridget",1,28,0,0,14311,0.015126992566498259,True,False
+49,0,3,"samaan, mr. youssef",0,28,2,0,2662,0.04231498029001666,False,False
+50,0,3,"arnold-franchi, mrs. josef (josefine franchi)",1,18,1,0,349237,0.034743286152731485,False,True
+51,0,3,"panula, master. juha niilo",0,7,4,1,3101295,0.07746484096553544,False,True
+52,0,3,"nosworthy, mr. richard cater",0,21,0,0,A/4. 39886,0.01522458606692728,False,True
+53,1,1,"harper, mrs. henry sleeper (myna haxtun)",1,49,1,0,PC 17572,0.1497654242623688,False,False
+54,1,2,"faunthorpe, mrs. lizzie (elizabeth anne wilkinson)",1,29,1,0,2926,0.050748620223090936,False,True
+56,1,1,"woolner, mr. hugh",0,28,0,0,19947,0.06929138530460492,False,True
+57,1,2,"rugg, miss. emily",1,21,0,0,C.A. 31026,0.020494635090094415,False,True
+58,0,3,"novel, mr. mansouer",0,28,0,0,2697,0.014110458666029575,False,False
+59,1,2,"west, miss. constance mirium",1,5,1,2,C.A. 34651,0.05416439273810667,False,True
+60,0,3,"goodwin, master. william frederick",0,11,5,2,CA 2144,0.09154270340242172,False,True
+61,0,3,"sirayanian, mr. orsen",0,22,0,0,2669,0.014110458666029575,False,False
+62,1,1,"icard, miss. amelie",1,38,0,0,113572,0.15614960068643363,False,True
+63,0,1,"harris, mr. henry birkhardt",0,45,1,0,36973,0.16293234896625058,False,True
+64,0,3,"skoog, master. harald",0,4,3,2,347088,0.05445717323939373,False,True
+65,0,1,"stewart, mr. albert a",0,28,0,0,PC 17605,0.05410739813385612,False,False
+66,1,3,"moubarek, master. gerios",0,28,1,1,2661,0.029757819776815374,False,False
+67,1,2,"nye, mrs. (elizabeth ramell)",1,29,0,0,C.A. 29395,0.020494635090094415,False,True
+68,0,3,"crease, mr. ernest james",0,19,0,0,S.P. 3464,0.015923941091001644,False,True
+69,1,3,"andersson, miss. erna alexandra",1,17,4,2,3101281,0.015468569817999833,False,True
+70,0,3,"kink, mr. vincenz",0,26,2,0,315151,0.016908073949327893,False,True
+71,0,2,"jenkin, mr. stephen curnow",0,32,0,0,C.A. 33111,0.020494635090094415,False,True
+72,0,3,"goodwin, miss. lillian amy",1,16,5,2,CA 2144,0.09154270340242172,False,True
+73,0,2,"hood, mr. ambrose jr",0,21,0,0,S.O.C. 14879,0.1434624456306609,False,True
+74,0,3,"chronopoulos, mr. apostolos",0,26,1,0,2680,0.028212719478023115,False,False
+75,1,3,"bing, mr. lee",0,32,0,0,1601,0.11027245763075773,False,True
+76,0,3,"moen, mr. sigurd hansen",0,25,0,0,348123,0.014931805565640218,False,True
+77,0,3,"staneff, mr. ivan",0,28,0,0,349208,0.015411575213749284,False,True
+78,0,3,"moutal, mr. rahamin haim",0,28,0,0,374746,0.015712553569072387,False,True
+80,1,3,"dowdell, miss. elizabeth",1,30,0,0,364516,0.024349578357040744,False,True
+81,0,3,"waelens, mr. achille",0,22,0,0,345767,0.017566830077223785,False,True
+82,1,3,"sheerlinck, mr. jan baptist",0,29,0,0,345779,0.018542765081513996,False,True
+83,1,3,"mcdermott, miss. brigdet delia",1,28,0,0,330932,0.015200187691820024,True,False
+84,0,1,"carrau, mr. francisco m",0,28,0,0,113059,0.09193307740413781,False,True
+85,1,2,"ilett, miss. bertha",1,17,0,0,SO/C 14885,0.020494635090094415,False,True
+86,1,3,"backstrom, mrs. karl alfred (maria mathilda gustafsson)",1,33,3,0,3101278,0.030937139635999665,False,True
+87,0,3,"ford, mr. william neal",0,16,1,3,W./C. 6608,0.06709553154495196,False,True
+88,0,3,"slocovski, mr. selman francis",0,28,0,0,SOTON/OQ 392086,0.015712553569072387,False,True
+89,1,1,"fortune, miss. mabel helen",1,23,3,2,19950,0.5133418122566505,False,True
+90,0,3,"celotti, mr. francesco",0,24,0,0,343275,0.015712553569072387,False,True
+91,0,3,"christmann, mr. emil",0,29,0,0,343276,0.015712553569072387,False,True
+92,0,3,"andreasson, mr. paul edvin",0,20,0,0,347466,0.015330377421392339,False,True
+93,0,1,"chaffee, mr. herbert fuller",0,46,1,0,W.E.P. 5734,0.11940564777490723,False,True
+94,0,3,"dean, mr. bertram frank",0,26,1,2,C.A. 2315,0.04015972542654215,False,True
+96,0,3,"shorney, mr. charles joseph",0,28,0,0,374910,0.015712553569072387,False,True
+98,1,1,"greenfield, mr. william bertram",0,23,0,1,PC 17759,0.12366716556464086,False,False
+99,1,2,"doling, mrs. john t (ada julia bone)",1,34,0,1,231919,0.04489301019734967,False,True
+100,0,2,"kantor, mr. sinai",0,34,1,0,244367,0.050748620223090936,False,True
+101,0,3,"petranec, miss. matilda",1,28,0,0,349245,0.015411575213749284,False,True
+102,0,3,"petroff, mr. pastcho (""pentcho"")",0,28,0,0,349215,0.015411575213749284,False,True
+103,0,1,"white, mr. richard frasar",0,21,0,1,35281,0.15085515328815924,False,True
+104,0,3,"johansson, mr. gustaf joel",0,33,0,0,7540,0.016891873428256675,False,True
+105,0,3,"gustafsson, mr. anders vilhelm",0,37,2,0,3101276,0.015468569817999833,False,True
+106,0,3,"mionoff, mr. stoytcho",0,28,0,0,349207,0.015411575213749284,False,True
+107,1,3,"salkjelsvik, miss. anna kristine",1,21,0,0,343120,0.014931805565640218,False,True
+108,1,3,"moss, mr. albert johan",0,28,0,0,312991,0.015175789316712771,False,True
+109,0,3,"rekic, mr. tido",0,38,0,0,349249,0.015411575213749284,False,True
+110,1,3,"moran, miss. bertha",1,28,1,0,371110,0.04713766070721715,True,False
+111,0,1,"porter, mr. walter chamberlain",0,47,0,0,110465,0.10149724044618187,False,True
+112,0,3,"zabour, miss. hileni",1,14,1,0,2665,0.028212719478023115,False,False
+113,0,3,"barton, mr. david john",0,22,0,0,324669,0.015712553569072387,False,True
+114,0,3,"jussila, miss. katriina",1,20,1,0,4136,0.019177122834302632,False,True
+115,0,3,"attalah, miss. malake",1,17,0,0,2627,0.028220722145058292,False,False
+116,0,3,"pekoniemi, mr. edvard",0,21,0,0,STON/O 2. 3101294,0.015468569817999833,False,True
+118,0,2,"turpin, mr. william john robert",0,29,1,0,11668,0.04098927018018883,False,True
+119,0,1,"baxter, mr. quigg edmond",0,24,0,1,PC 17558,0.4831284260198326,False,False
+121,0,2,"hickman, mr. stanley george",0,21,2,0,S.O.C. 14879,0.1434624456306609,False,True
+122,0,3,"moore, mr. leonard charles",0,28,0,0,A4. 54510,0.015712553569072387,False,True
+123,0,2,"nasser, mr. nicholas",0,32,1,0,237736,0.058694292654020104,False,False
+124,1,2,"webber, miss. susan",1,32,0,0,27267,0.025374310111545468,False,True
+125,0,1,"white, mr. percival wayland",0,54,0,1,35281,0.15085515328815924,False,True
+126,1,3,"nicola-yarred, master. elias",0,12,1,0,2651,0.021942337075458514,False,False
+127,0,3,"mcmahon, mr. martin",0,28,0,0,370372,0.015126992566498259,True,False
+128,1,3,"madsen, mr. fridtjof arne",0,24,0,0,C 17369,0.01393967004027879,False,True
+129,1,3,"peter, miss. anna",1,28,1,1,2668,0.04364049521284361,False,False
+130,0,3,"ekstrom, mr. johan",0,45,0,0,347061,0.013614293309848433,False,True
+131,0,3,"drazenoic, mr. jozef",0,33,0,0,349241,0.015411575213749284,False,False
+132,0,3,"coelho, mr. domingos fernandeo",0,20,0,0,SOTON/O.Q. 3101307,0.013760683560491965,False,True
+133,0,3,"robins, mrs. alexander a (grace charity laury)",1,47,1,0,A/5. 3337,0.028302115124416098,False,True
+134,1,2,"weisz, mrs. leopold (mathilde francoise pede)",1,29,1,0,228414,0.050748620223090936,False,True
+135,0,2,"sobey, mr. samuel james hayden",0,25,0,0,C.A. 29178,0.025374310111545468,False,True
+136,0,2,"richard, mr. emile",0,23,0,0,SC/PARIS 2133,0.02936744577509929,False,False
+137,1,1,"newsom, miss. helen monypeny",1,19,0,2,11752,0.051301584996521765,False,True
+138,0,1,"futrelle, mr. jacques heath",0,37,1,0,113803,0.10364429745562033,False,True
+139,0,3,"osen, mr. olaf elon",0,16,0,0,7534,0.01798980030808316,False,True
+140,0,1,"giglio, mr. victor",0,24,0,0,PC 17593,0.15458810467956932,False,False
+141,0,3,"boulos, mrs. joseph (sultana)",1,28,0,2,2678,0.029757819776815374,False,False
+142,1,3,"nysten, miss. anna sofia",1,22,0,0,347081,0.015126992566498259,False,True
+143,1,3,"hakkarainen, mrs. pekka pietari (elin matilda dolck)",1,24,1,0,STON/O2. 3101279,0.030937139635999665,False,True
+144,0,3,"burke, mr. jeremiah",0,19,0,0,365222,0.013175122557917838,True,False
+145,0,2,"andrew, mr. edgardo samuel",0,18,0,0,231945,0.022446505098674834,False,True
+146,0,2,"nicholls, mr. joseph charles",0,19,1,1,C.A. 33112,0.07173122281533045,False,True
+147,1,3,"andersson, mr. august edvard (""wennerstrom"")",0,27,0,0,350043,0.015216388212891242,False,True
+148,0,3,"ford, miss. robina maggie ""ruby""",1,9,2,2,W./C. 6608,0.06709553154495196,False,True
+149,0,2,"navratil, mr. michel (""louis m hoffman"")",0,36,0,2,230080,0.050748620223090936,False,True
+150,0,2,"byles, rev. thomas roussel davids",0,42,0,0,244310,0.025374310111545468,False,True
+151,0,2,"bateman, rev. robert james",0,51,0,0,S.O.P. 1166,0.02444717185746977,False,True
+152,1,1,"pears, mrs. thomas (edith wearne)",1,22,1,0,113776,0.12999454257145598,False,True
+154,0,3,"van billiard, mr. austin blyler",0,40,0,2,A/5. 851,0.028302115124416098,False,True
+155,0,3,"olsen, mr. ole martin",0,28,0,0,Fa 265302,0.014273049437744325,False,True
+156,0,1,"williams, mr. charles duane",0,51,0,1,PC 17597,0.11980421963065935,False,False
+157,1,3,"gilnagh, miss. katherine ""katie""",1,16,0,0,35851,0.015094396337354966,True,False
+158,0,3,"corn, mr. harry",0,30,0,0,SOTON/OQ 392090,0.015712553569072387,False,True
+159,0,3,"smiljanic, mr. mile",0,28,0,0,315037,0.016908073949327893,False,True
+160,0,3,"sage, master. thomas henry",0,28,8,2,CA. 2343,0.13575255909676823,False,True
+161,0,3,"cribb, mr. john hatfield",0,44,0,1,371362,0.031425107138144774,False,True
+162,1,2,"watt, mrs. james (elizabeth ""bessie"" inglis milne)",1,40,0,0,C.A. 33595,0.030741952635141623,False,True
+163,0,3,"bengtsson, mr. john viktor",0,26,0,0,347068,0.015175789316712771,False,True
+164,0,3,"calic, mr. jovo",0,17,0,0,315093,0.016908073949327893,False,True
+166,1,3,"goldsmith, master. frank john william ""frankie""",0,9,0,2,363291,0.04006213192611313,False,True
+167,1,1,"chibnall, mrs. (edith martha bowerman)",1,28,0,1,113505,0.10735285047192313,False,True
+168,0,3,"skoog, mrs. william (anna bernhardina karlsson)",1,45,1,4,347088,0.05445717323939373,False,True
+169,0,1,"baumann, mr. john d",0,28,0,0,PC 17318,0.050602229972447406,False,True
+170,0,3,"ling, mr. lee",0,28,0,0,1601,0.11027245763075773,False,True
+172,0,3,"rice, master. arthur",0,4,4,1,382652,0.056848213999904744,True,False
+174,0,3,"sivola, mr. antti wilhelm",0,21,0,0,STON/O 2. 3101280,0.015468569817999833,False,True
+176,0,3,"klasen, mr. klas albin",0,18,1,1,350404,0.015330377421392339,False,True
+177,0,3,"lefebre, master. henry forbes",0,28,3,1,4133,0.04970768794751499,False,True
+178,0,1,"isham, miss. ann elizabeth",1,50,0,0,PC 17595,0.05604306762136532,False,False
+179,0,2,"hale, mr. reginald",0,30,0,0,250653,0.025374310111545468,False,True
+180,0,3,"leonard, mr. lionel",0,36,0,0,LINE,0.0,False,True
+181,0,3,"sage, miss. constance gladys",1,28,8,2,CA. 2343,0.13575255909676823,False,True
+182,0,2,"pernot, mr. rene",0,28,0,0,SC/PARIS 2131,0.02937564362913533,False,False
+183,0,3,"asplund, master. clarence gustaf hugo",0,9,4,2,347077,0.061264319894317944,False,True
+185,1,3,"kink-heilmann, miss. luise gretchen",1,4,0,2,315153,0.04298993693898376,False,True
+186,0,1,"rood, mr. hugh roscoe",0,28,0,0,113767,0.09759350042902103,False,True
+187,1,3,"o'brien, mrs. thomas (johanna ""hannah"" godfrey)",1,28,1,0,370365,0.030253985132996517,True,False
+188,1,1,"romaine, mr. charles hallace (""mr c rolmane"")",0,45,0,0,111428,0.051822148727810165,False,True
+189,0,3,"bourke, mr. john",0,40,1,1,364849,0.030253985132996517,True,False
+190,0,3,"turcin, mr. stjepan",0,36,0,0,349247,0.015411575213749284,False,True
+191,1,2,"pinsky, mrs. (rosa)",1,32,0,0,234604,0.025374310111545468,False,True
+192,0,2,"carbines, mr. william",0,19,0,0,28424,0.025374310111545468,False,True
+193,1,3,"andersen-jensen, miss. carla christine nielsine",1,19,1,0,350046,0.015330377421392339,False,True
+194,1,2,"navratil, master. michel m",0,3,1,1,230080,0.050748620223090936,False,True
+195,1,1,"brown, mrs. james joseph (margaret tobin)",1,44,0,0,PC 17610,0.05410739813385612,False,False
+197,0,3,"mernagh, mr. robert",0,28,0,0,368703,0.015126992566498259,True,False
+198,0,3,"olsen, mr. karl siegwart andreas",0,42,0,1,4579,0.01640390592611157,False,True
+199,1,3,"madigan, miss. margaret ""maggie""",1,28,0,0,370370,0.015126992566498259,True,False
+200,0,2,"yrois, miss. henriette (""mrs harbeck"")",1,24,0,0,248747,0.025374310111545468,False,True
+201,0,3,"vande walle, mr. nestor cyriel",0,28,0,0,345770,0.018542765081513996,False,True
+202,0,3,"sage, mr. frederick",0,28,8,2,CA. 2343,0.13575255909676823,False,True
+203,0,3,"johanson, mr. jakob alfred",0,34,0,0,3101264,0.012678957201736696,False,True
+204,0,3,"youseff, mr. gerious",0,45,0,0,2628,0.014102260811993537,False,False
+205,1,3,"cohen, mr. gurshon ""gus""",0,18,0,0,A/5 3540,0.015712553569072387,False,True
+207,0,3,"backstrom, mr. karl alfred",0,32,1,0,3101278,0.030937139635999665,False,True
+208,1,3,"albimona, mr. nassef cassem",0,26,0,0,2699,0.036670757786204655,False,False
+209,1,3,"carr, miss. helen ""ellen""",1,16,0,0,367231,0.015126992566498259,True,False
+210,1,1,"blank, mr. henry",0,40,0,0,112277,0.060507970265993034,False,False
+211,0,3,"ali, mr. ahmed",0,24,0,0,SOTON/O.Q. 3101311,0.013760683560491965,False,True
+212,1,2,"cameron, miss. clear annie",1,35,0,0,F.C.C. 13528,0.04098927018018883,False,True
+213,0,3,"perkin, mr. john henry",0,22,0,0,A/5 21174,0.014151057562208049,False,True
+214,0,2,"givard, mr. hans kristensen",0,30,0,0,250646,0.025374310111545468,False,True
+215,0,3,"kiernan, mr. philip",0,28,1,0,367229,0.015126992566498259,True,False
+216,1,1,"newell, miss. madeleine",1,31,1,0,35273,0.22109807522194713,False,False
+217,1,3,"honkanen, miss. eliina",1,27,0,0,STON/O2. 3101283,0.015468569817999833,False,True
+218,0,2,"jacobsohn, mr. sidney samuel",0,42,1,0,243847,0.05270049023167135,False,True
+219,1,1,"bazzani, miss. albina",1,32,0,0,11813,0.14891148113361488,False,False
+220,0,2,"harris, mr. walter",0,30,0,0,W/C 14208,0.020494635090094415,False,True
+221,1,3,"sunderland, mr. victor francis",0,16,0,0,SOTON/OQ 392089,0.015712553569072387,False,True
+222,0,2,"bracken, mr. james h",0,27,0,0,220367,0.025374310111545468,False,True
+223,0,3,"green, mr. george henry",0,51,0,0,21440,0.015712553569072387,False,True
+224,0,3,"nenkoff, mr. christo",0,28,0,0,349234,0.015411575213749284,False,True
+225,1,1,"hoyt, mr. frederick maxfield",0,38,1,0,19943,0.17566830077223786,False,True
+226,0,3,"berglund, mr. karl ivar sven",0,22,0,0,PP 4348,0.01824998458022693,False,True
+227,1,2,"mellors, mr. william john",0,19,0,0,SW/PP 751,0.020494635090094415,False,True
+228,0,3,"lovell, mr. john hall (""henry"")",0,20,0,0,A/5 21173,0.014151057562208049,False,True
+229,0,2,"fahlstrom, mr. arne jonas",0,18,0,0,236171,0.025374310111545468,False,True
+230,0,3,"lefebre, miss. mathilde",1,28,3,1,4133,0.04970768794751499,False,True
+231,1,1,"harris, mrs. henry birkhardt (irene wallach)",1,35,1,0,36973,0.16293234896625058,False,True
+232,0,3,"larsson, mr. bengt edvin",0,29,0,0,347067,0.015175789316712771,False,True
+234,1,3,"asplund, miss. lillian gertrud",1,5,4,2,347077,0.061264319894317944,False,True
+235,0,2,"leyson, mr. robert william norman",0,24,0,0,C.A. 29566,0.020494635090094415,False,True
+236,0,3,"harknett, miss. alice phoebe",1,28,0,0,W./C. 6609,0.014736618564782174,False,True
+237,0,2,"hold, mr. stephen",0,44,1,0,26707,0.050748620223090936,False,True
+238,1,2,"collyer, miss. marjorie ""lottie""",1,8,0,2,C.A. 31921,0.05123658772523604,False,True
+239,0,2,"pengelly, mr. frederick william",0,19,0,0,28665,0.020494635090094415,False,True
+240,0,2,"hunt, mr. george henry",0,33,0,0,SCO/W 1585,0.023959204355324663,False,True
+241,0,3,"zabour, miss. thamine",1,28,1,0,2665,0.028212719478023115,False,False
+242,1,3,"murphy, miss. katherine ""kate""",1,28,1,0,367230,0.030253985132996517,True,False
+243,0,2,"coleridge, mr. reginald charles",0,29,0,0,W./C. 14263,0.020494635090094415,False,True
+244,0,3,"maenpaa, mr. matti alexanteri",0,22,0,0,STON/O 2. 3101275,0.013907073811135496,False,True
+245,0,3,"attalah, mr. sleiman",0,30,0,0,2694,0.014102260811993537,False,False
+246,0,1,"minahan, dr. william edward",0,44,2,0,19928,0.17566830077223786,True,False
+247,0,3,"lindahl, miss. agda thorilda viktoria",1,25,0,0,347071,0.015175789316712771,False,True
+248,1,2,"hamalainen, mrs. william (anna)",1,24,0,2,250649,0.028302115124416098,False,True
+249,1,1,"beckwith, mr. richard leonard",0,37,1,1,11751,0.10257896680493714,False,True
+250,0,2,"carter, rev. ernest courtenay",0,54,1,0,244252,0.050748620223090936,False,True
+251,0,3,"reed, mr. james george",0,28,0,0,362316,0.014151057562208049,False,True
+252,0,3,"strom, mrs. wilhelm (elna matilda persson)",1,29,1,1,347054,0.02042143996477265,False,True
+254,0,3,"lobb, mr. william arthur",0,30,1,0,A/5. 3336,0.031425107138144774,False,True
+255,0,3,"rosblom, mrs. viktor (helena wilhelmina)",1,41,0,2,370129,0.039452172548431745,False,True
+256,1,3,"touma, mrs. darwis (hanne youssef razi)",1,29,0,2,2650,0.029757819776815374,False,False
+257,1,1,"thorne, mrs. gertrude maybelle",1,28,0,0,PC 17585,0.15458810467956932,False,False
+258,1,1,"cherry, miss. gladys",1,30,0,0,110152,0.16883675574220638,False,True
+259,1,1,"ward, miss. anna",1,35,0,0,PC 17755,1.0,False,False
+260,1,2,"parrish, mrs. (lutie davis)",1,50,0,1,230433,0.050748620223090936,False,True
+261,0,3,"smith, mr. thomas",0,28,0,0,384461,0.015126992566498259,True,False
+262,1,3,"asplund, master. edvin rojj felix",0,3,4,2,347077,0.061264319894317944,False,True
+263,0,1,"taussig, mr. emil",0,52,1,1,110413,0.1554664461834305,False,True
+264,0,1,"harrison, mr. william",0,40,0,0,112059,0.0,False,True
+265,0,3,"henry, miss. delia",1,28,0,0,382649,0.015126992566498259,True,False
+266,0,2,"reeves, mr. david",0,36,0,0,C.A. 17248,0.020494635090094415,False,True
+267,0,3,"panula, mr. ernesti arvid",0,16,4,1,3101295,0.07746484096553544,False,True
+268,1,3,"persson, mr. ernst ulrik",0,25,1,0,347083,0.015175789316712771,False,True
+270,1,1,"bissette, miss. amelia",1,35,0,0,PC 17760,0.2647385704347907,False,True
+271,0,1,"cairns, mr. alexander",0,28,0,0,113798,0.060507970265993034,False,True
+272,1,3,"tornquist, mr. william henry",0,25,0,0,LINE,0.0,False,True
+273,1,2,"mellinger, mrs. (elizabeth anne maidment)",1,41,0,1,250644,0.0380614651673182,False,True
+274,0,1,"natsch, mr. charles h",0,37,0,1,PC 17596,0.057970539254838485,False,False
+275,1,3,"healy, miss. hanora ""nora""",1,28,0,0,370375,0.015126992566498259,True,False
+277,0,3,"lindblom, miss. augusta charlotta",1,45,0,0,347073,0.015126992566498259,False,True
+278,0,2,"parkes, mr. francis ""frank""",0,28,0,0,239853,0.0,False,True
+279,0,3,"rice, master. eric",0,7,4,1,382652,0.056848213999904744,True,False
+280,1,3,"abbott, mrs. stanton (rosa hunt)",1,35,1,1,C.A. 2673,0.03952536767375352,False,True
+282,0,3,"olsson, mr. nils johan goransson",0,28,0,0,347464,0.015330377421392339,False,True
+283,0,3,"de pelsmaeker, mr. alfons",0,16,0,0,345778,0.018542765081513996,False,True
+284,1,3,"dorking, mr. edward arthur",0,19,0,0,A/5. 10482,0.015712553569072387,False,True
+285,0,1,"smith, mr. richard william",0,28,0,0,113056,0.050748620223090936,False,True
+286,0,3,"stankovic, mr. ivan",0,33,0,0,349239,0.016908073949327893,False,False
+287,1,3,"de mulder, mr. theodore",0,30,0,0,345774,0.018542765081513996,False,True
+288,0,3,"naidenoff, mr. penko",0,22,0,0,349206,0.015411575213749284,False,True
+289,1,2,"hosono, mr. masabumi",0,42,0,0,237798,0.025374310111545468,False,True
+290,1,3,"connolly, miss. kate",1,22,0,0,370373,0.015126992566498259,True,False
+291,1,1,"barber, miss. ellen ""nellie""",1,26,0,0,19877,0.15390495017656614,False,True
+292,1,1,"bishop, mrs. dickinson h (helen walton)",1,19,1,0,11967,0.17777475888549785,False,False
+293,0,2,"levy, mr. rene jacques",0,36,0,0,SC/Paris 2163,0.025130326360472913,False,False
+294,0,3,"haas, miss. aloisia",1,24,0,0,349236,0.01727404957593672,False,True
+295,0,3,"mineff, mr. ivan",0,24,0,0,349233,0.015411575213749284,False,True
+296,0,1,"lewy, mr. ervin g",0,28,0,0,PC 17612,0.05410739813385612,False,False
+297,0,3,"hanna, mr. mansour",0,23,0,0,2693,0.014110458666029575,False,False
+299,1,1,"saalfeld, mr. adolphe",0,28,0,0,19988,0.05953203526170282,False,True
+300,1,1,"baxter, mrs. james (helene delaudeniere chaput)",1,50,0,1,PC 17558,0.4831284260198326,False,False
+301,1,3,"kelly, miss. anna katherine ""annie kate""",1,28,0,0,9234,0.015126992566498259,True,False
+302,1,3,"mccoy, mr. bernard",0,28,2,0,367226,0.04538097769949478,True,False
+303,0,3,"johnson, mr. william cahoone jr",0,19,0,0,LINE,0.0,False,True
+304,1,2,"keane, miss. nora a",1,28,0,0,226593,0.024105594605968193,True,False
+305,0,3,"williams, mr. howard hugh ""harry""",0,28,0,0,A/5 2466,0.015712553569072387,False,True
+307,1,1,"fleming, miss. margaret",1,28,0,0,17421,0.21642978772242535,False,False
+308,1,1,"penasco y castellana, mrs. victor de satode (maria josefa perez de soto y vallejo)",1,17,1,0,PC 17758,0.2125586439344078,False,False
+309,0,2,"abelson, mr. samuel",0,30,1,0,P/PP 3381,0.04684488020593009,False,False
+310,1,1,"francatelli, miss. laura mabel",1,30,0,0,PC 17485,0.11111839809247648,False,False
+311,1,1,"hays, miss. margaret bechstein",1,24,0,0,11767,0.16231419173453318,False,False
+312,1,1,"ryerson, miss. emily borie",1,18,2,2,PC 17608,0.5121218935012878,False,False
+313,0,2,"lahtinen, mrs. william (anna sylfven)",1,26,1,1,250651,0.050748620223090936,False,True
+314,0,3,"hendekovic, mr. ignjac",0,28,0,0,349243,0.015411575213749284,False,True
+315,0,2,"hart, mr. benjamin",0,43,1,1,F.C.C. 13529,0.05123658772523604,False,True
+316,1,3,"nilsson, miss. helmina josefina",1,26,0,0,347470,0.015330377421392339,False,True
+317,1,2,"kantor, mrs. sinai (miriam sternin)",1,24,1,0,244367,0.050748620223090936,False,True
+318,0,2,"moraweck, dr. ernest",0,54,0,0,29011,0.027326180120125887,False,True
+319,1,1,"wick, miss. mary natalie",1,31,0,2,36928,0.32179836714362564,False,True
+320,1,1,"spedden, mrs. frederic oakley (margaretta corning stone)",1,40,1,1,16966,0.2625265161540666,False,False
+321,0,3,"dennis, mr. samuel",0,22,0,0,A/5 21172,0.014151057562208049,False,True
+322,0,3,"danoff, mr. yoto",0,27,0,0,349219,0.015411575213749284,False,True
+323,1,2,"slayter, miss. hilda mary",1,30,0,0,234818,0.024105594605968193,True,False
+324,1,2,"caldwell, mrs. albert francis (sylvia mae harbaugh)",1,22,1,1,248738,0.056604230248832196,False,True
+325,0,3,"sage, mr. george john jr",0,28,8,2,CA. 2343,0.13575255909676823,False,True
+326,1,1,"young, miss. marie grice",1,36,0,0,PC 17760,0.2647385704347907,False,False
+328,1,2,"ball, mrs. (ada e hall)",1,36,0,0,28551,0.025374310111545468,False,True
+329,1,3,"goldsmith, mrs. frank john (emily alice brown)",1,31,1,1,363291,0.04006213192611313,False,True
+330,1,1,"hippach, miss. jean gertrude",1,16,0,1,111361,0.11316786160148591,False,False
+331,1,3,"mccoy, miss. agnes",1,28,2,0,367226,0.04538097769949478,True,False
+332,0,1,"partner, mr. austen",0,45,0,0,113043,0.055628295244541985,False,True
+333,0,1,"graham, mr. george edward",0,38,0,1,PC 17582,0.2995388511917728,False,True
+334,0,3,"vander planke, mr. leo edmondus",0,16,2,0,345764,0.03513366015444757,False,True
+335,1,1,"frauenthal, mrs. henry william (clara heinsheimer)",1,28,1,0,PC 17611,0.2608674266467732,False,True
+336,0,3,"denkoff, mr. mitto",0,28,0,0,349225,0.015411575213749284,False,True
+337,0,1,"pears, mr. thomas clinton",0,29,1,0,113776,0.12999454257145598,False,True
+338,1,1,"burns, miss. elizabeth margaret",1,41,0,0,16966,0.2625265161540666,False,False
+339,1,3,"dahl, mr. karl edwart",0,45,0,0,7598,0.015712553569072387,False,True
+340,0,1,"blackwell, mr. stephen weart",0,45,0,0,113784,0.06929138530460492,False,True
+342,1,1,"fortune, miss. alice elizabeth",1,24,3,2,19950,0.5133418122566505,False,True
+343,0,2,"collander, mr. erik gustaf",0,28,0,0,248740,0.025374310111545468,False,True
+344,0,2,"sedgwick, mr. charles frederick waddington",0,25,0,0,244361,0.025374310111545468,False,True
+345,0,2,"fox, mr. stanley hubert",0,36,0,0,229236,0.025374310111545468,False,True
+346,1,2,"brown, miss. amelia ""mildred""",1,24,0,0,248733,0.025374310111545468,False,True
+347,1,2,"smith, miss. marion elsie",1,40,0,0,31418,0.025374310111545468,False,True
+348,1,3,"davison, mrs. thomas henry (mary e finck)",1,28,1,0,386525,0.031425107138144774,False,True
+349,1,3,"coutts, master. william loch ""william""",0,3,1,1,C.A. 37671,0.031034733136428686,False,True
+350,0,3,"dimic, mr. jovan",0,42,0,0,315088,0.016908073949327893,False,True
+351,0,3,"odahl, mr. nils martin",0,23,0,0,7267,0.01800600082915438,False,True
+352,0,1,"williams-lambert, mr. fletcher fellows",0,28,0,0,113510,0.06831545030031472,False,True
+353,0,3,"elias, mr. tannous",0,15,1,1,2695,0.014110458666029575,False,False
+354,0,3,"arnold-franchi, mr. josef",0,25,1,0,349237,0.034743286152731485,False,True
+355,0,3,"yousif, mr. wazli",0,28,0,0,2647,0.014102260811993537,False,False
+356,0,3,"vanden steen, mr. leo peter",0,28,0,0,345783,0.018542765081513996,False,True
+357,1,1,"bowerman, miss. elsie edith",1,22,0,1,113505,0.10735285047192313,False,True
+358,0,2,"funk, miss. annie clemmer",1,38,0,0,237671,0.025374310111545468,False,True
+359,1,3,"mcgovern, miss. mary",1,28,0,0,330931,0.01537917417160685,True,False
+360,1,3,"mockler, miss. helen mary ""ellie""",1,28,0,0,330980,0.01537917417160685,True,False
+361,0,3,"skoog, mr. wilhelm",0,40,1,4,347088,0.05445717323939373,False,True
+362,0,2,"del carlo, mr. sebastiano",0,29,1,0,SC/PARIS 2167,0.05410739813385612,False,False
+363,0,3,"barbara, mrs. (catherine david)",1,45,0,1,2691,0.028212719478023115,False,False
+364,0,3,"asim, mr. adola",0,35,0,0,SOTON/O.Q. 3101310,0.013760683560491965,False,True
+365,0,3,"o'brien, mr. thomas",0,28,1,0,370365,0.030253985132996517,True,False
+366,0,3,"adahl, mr. mauritz nils martin",0,30,0,0,C 7076,0.014151057562208049,False,True
+368,1,3,"moussa, mrs. (mantoura boulos)",1,28,0,0,2626,0.014110458666029575,False,False
+369,1,3,"jermyn, miss. annie",1,28,0,0,14313,0.015126992566498259,True,False
+370,1,1,"aubart, mme. leontine pauline",1,24,0,0,PC 17477,0.13526459159462315,False,False
+371,1,1,"harder, mr. george achilles",0,25,1,0,11765,0.1082149914547131,False,False
+372,0,3,"wiklund, mr. jakob alfred",0,18,1,0,3101267,0.012678957201736696,False,True
+373,0,3,"beavan, mr. william thomas",0,19,0,0,323951,0.015712553569072387,False,True
+374,0,1,"ringhini, mr. sante",0,22,0,0,PC 17760,0.2647385704347907,False,False
+375,0,3,"palsson, miss. stina viola",1,3,3,1,349909,0.04113566043083236,False,True
+376,1,1,"meyer, mrs. edgar joseph (leila saks)",1,28,1,0,PC 17604,0.16038672010106,False,False
+377,1,3,"landergren, miss. aurora adelia",1,22,0,0,C 7077,0.014151057562208049,False,True
+378,0,1,"widener, mr. harry elkins",0,27,0,2,113503,0.41282050681475896,False,False
+379,0,3,"betros, mr. tannous",0,20,0,0,2648,0.007831878409428937,False,False
+380,0,3,"gustafsson, mr. karl gideon",0,19,0,0,347069,0.015175789316712771,False,True
+381,1,1,"bidois, miss. rosalie",1,42,0,0,PC 17757,0.4440992237022602,False,False
+383,0,3,"tikkanen, mr. juho",0,32,0,0,STON/O 2. 3101293,0.015468569817999833,False,True
+384,1,1,"holverson, mrs. alexander oskar (mary aline towner)",1,35,1,0,113789,0.10149724044618187,False,True
+385,0,3,"plotcharsky, mr. vasil",0,28,0,0,349227,0.015411575213749284,False,True
+386,0,2,"davies, mr. charles henry",0,18,0,0,S.O.C. 14879,0.1434624456306609,False,True
+388,1,2,"buss, miss. kate",1,36,0,0,27849,0.025374310111545468,False,True
+389,0,3,"sadlier, mr. matthew",0,28,0,0,367655,0.015086393670319786,True,False
+390,1,2,"lehmann, miss. bertha",1,17,0,0,SC 1748,0.023422440102965045,False,False
+391,1,1,"carter, mr. william ernest",0,36,1,2,113760,0.23422440102965045,False,True
+392,1,3,"jansson, mr. carl olof",0,21,0,0,350034,0.015216388212891242,False,True
+393,0,3,"gustafsson, mr. johan birger",0,28,2,0,3101277,0.015468569817999833,False,True
+394,1,1,"newell, miss. marjorie",1,23,1,0,35273,0.22109807522194713,False,False
+395,1,3,"sandstrom, mrs. hjalmar (agnes charlotta bengtsson)",1,24,0,2,PP 9549,0.03259622914329302,False,True
+396,0,3,"johansson, mr. erik",0,22,0,0,350052,0.015216388212891242,False,True
+397,0,3,"olsson, miss. elina",1,31,0,0,350407,0.015330377421392339,False,True
+398,0,2,"mckane, mr. peter david",0,46,0,0,28403,0.050748620223090936,False,True
+399,0,2,"pain, dr. alfred",0,23,0,0,244278,0.020494635090094415,False,True
+400,1,2,"trout, mrs. william h (jessie l)",1,28,0,0,240929,0.02469115560854232,False,True
+401,1,3,"niskanen, mr. juha",0,39,0,0,STON/O 2. 3101289,0.015468569817999833,False,True
+402,0,3,"adams, mr. john",0,26,0,0,341826,0.015712553569072387,False,True
+403,0,3,"jussila, miss. mari aina",1,21,1,0,4137,0.019177122834302632,False,True
+404,0,3,"hakkarainen, mr. pekka pietari",0,28,1,0,STON/O2. 3101279,0.030937139635999665,False,True
+405,0,3,"oreskovic, miss. marija",1,20,0,0,315096,0.016908073949327893,False,True
+406,0,2,"gale, mr. shadrach",0,34,1,0,28664,0.04098927018018883,False,True
+407,0,3,"widegren, mr. carl/charles peter",0,51,0,0,347064,0.015126992566498259,False,True
+408,1,2,"richards, master. william rowe",0,3,1,1,29106,0.03659756266088288,False,True
+409,0,3,"birkeland, mr. hans martin monsen",0,21,0,0,312992,0.015175789316712771,False,True
+410,0,3,"lefebre, miss. ida",1,28,3,1,4133,0.04970768794751499,False,True
+411,0,3,"sdycoff, mr. todor",0,28,0,0,349222,0.015411575213749284,False,True
+412,0,3,"hart, mr. henry",0,28,0,0,394140,0.013386510079847098,True,False
+413,1,1,"minahan, miss. daisy e",1,33,1,0,19928,0.17566830077223786,True,False
+414,0,2,"cunningham, mr. alfred fleming",0,28,0,0,239853,0.0,False,True
+415,1,3,"sundman, mr. johan julian",0,44,0,0,STON/O 2. 3101269,0.015468569817999833,False,True
+416,0,3,"meek, mrs. thomas (annie louise rowley)",1,28,0,0,343095,0.015712553569072387,False,True
+417,1,2,"drew, mrs. james vivian (lulu thorne christian)",1,34,1,1,28220,0.06343577527886367,False,True
+418,1,2,"silven, miss. lyyli karoliina",1,18,0,2,250652,0.025374310111545468,False,True
+419,0,2,"matthews, mr. william john",0,30,0,0,28228,0.025374310111545468,False,True
+420,0,3,"van impe, miss. catharina",1,10,0,2,345773,0.04713766070721715,False,True
+421,0,3,"gheorgheff, mr. stanio",0,28,0,0,349254,0.015411575213749284,False,False
+422,0,3,"charters, mr. david",0,21,0,0,A/5. 13032,0.015094396337354966,True,False
+423,0,3,"zimmerman, mr. leo",0,29,0,0,315082,0.015370976317570811,False,True
+424,0,3,"danbom, mrs. ernst gilbert (anna sigrid maria brogren)",1,28,1,1,347080,0.028106928123558056,False,True
+425,0,3,"rosblom, mr. viktor richard",0,18,1,1,370129,0.039452172548431745,False,True
+426,0,3,"wiseman, mr. phillippe",0,28,0,0,A/4. 34244,0.014151057562208049,False,True
+427,1,2,"clarke, mrs. charles v (ada maria winfield)",1,28,1,0,2003,0.050748620223090936,False,True
+428,1,2,"phillips, miss. kate florence (""mrs kate louise phillips marshall"")",1,19,0,0,250655,0.050748620223090936,False,True
+429,0,3,"flynn, mr. james",0,28,0,0,364851,0.015126992566498259,True,False
+430,1,3,"pickard, mr. berk (berk trembisky)",0,32,0,0,SOTON/O.Q. 392078,0.015712553569072387,False,True
+431,1,1,"bjornstrom-steffansson, mr. mauritz hakan",0,28,0,0,110564,0.051822148727810165,False,True
+432,1,3,"thorneycroft, mrs. percival (florence kate white)",1,28,1,0,376564,0.031425107138144774,False,True
+433,1,2,"louch, mrs. charles alexander (alice adelaide slow)",1,42,1,0,SC/AH 3085,0.050748620223090936,False,True
+434,0,3,"kallio, mr. nikolai erland",0,17,0,0,STON/O 2. 3101274,0.013907073811135496,False,True
+435,0,1,"silvey, mr. william baird",0,50,1,0,13507,0.1091095334796455,False,True
+436,1,1,"carter, miss. lucile polk",1,14,1,2,113760,0.23422440102965045,False,True
+437,0,3,"ford, miss. doolina margaret ""daisy""",1,21,2,2,W./C. 6608,0.06709553154495196,False,True
+438,1,2,"richards, mrs. sidney (emily hocking)",1,24,2,3,29106,0.03659756266088288,False,True
+440,0,2,"kvillner, mr. johan henrik johannesson",0,31,0,0,C.A. 18723,0.020494635090094415,False,True
+441,1,2,"hart, mrs. benjamin (esther ada bloomfield)",1,45,1,1,F.C.C. 13529,0.05123658772523604,False,True
+442,0,3,"hampe, mr. leon",0,20,0,0,345769,0.018542765081513996,False,True
+443,0,3,"petterson, mr. johan emil",0,25,1,0,347076,0.015175789316712771,False,True
+444,1,2,"reynaldo, ms. encarnacion",1,28,0,0,230434,0.025374310111545468,False,True
+445,1,3,"johannesen-bratthammer, mr. bernt",0,28,0,0,65306,0.015834545444608664,False,True
+446,1,1,"dodge, master. washington",0,4,0,2,33638,0.15977676072337862,False,True
+447,1,2,"mellinger, miss. madeleine violet",1,13,0,1,250644,0.0380614651673182,False,True
+448,1,1,"seward, mr. frederic kimber",0,34,0,0,113794,0.051822148727810165,False,True
+449,1,3,"baclini, miss. marie catherine",1,5,2,1,2666,0.03758969818624431,False,False
+450,1,1,"peuchen, major. arthur godfrey",0,52,0,0,113786,0.05953203526170282,False,True
+451,0,2,"west, mr. edwy arthur",0,36,1,2,C.A. 34651,0.05416439273810667,False,True
+452,0,3,"hagland, mr. ingvald olai olsen",0,28,1,0,65303,0.03897240290032268,False,True
+453,0,1,"foreman, mr. benjamin laventall",0,30,0,0,113051,0.05416439273810667,False,False
+454,1,1,"goldenberg, mr. samuel l",0,49,1,0,17453,0.17391981561855152,False,False
+455,0,3,"peduzzi, mr. joseph",0,28,0,0,A/5 2817,0.015712553569072387,False,True
+456,1,3,"jalsevac, mr. ivan",0,29,0,0,349240,0.015411575213749284,False,False
+458,1,1,"kenyon, mrs. frederick r (marion)",1,28,1,0,17464,0.10122885832000206,False,True
+459,1,2,"toomey, miss. ellen",1,50,0,0,F.C.C. 13531,0.020494635090094415,False,True
+460,0,3,"o'connor, mr. maurice",0,28,0,0,371060,0.015126992566498259,True,False
+461,1,1,"anderson, mr. harry",0,48,0,0,19952,0.051822148727810165,False,True
+462,0,3,"morley, mr. william",0,34,0,0,364506,0.015712553569072387,False,True
+463,0,1,"gee, mr. arthur h",0,47,0,0,111320,0.07514699533034619,False,True
+464,0,2,"milling, mr. jacob christian",0,48,0,0,234360,0.025374310111545468,False,True
+465,0,3,"maisner, mr. simon",0,28,0,0,A/S 2816,0.015712553569072387,False,True
+466,0,3,"goncalves, mr. manuel estanslas",0,38,0,0,SOTON/O.Q. 3101306,0.013760683560491965,False,True
+467,0,2,"campbell, mr. william",0,28,0,0,239853,0.0,False,True
+469,0,3,"scanlan, mr. james",0,28,0,0,36209,0.015078195816283748,True,False
+471,0,3,"keefe, mr. arthur",0,28,0,0,323592,0.014151057562208049,False,True
+472,0,3,"cacic, mr. luka",0,38,0,0,315089,0.016908073949327893,False,True
+473,1,2,"west, mrs. edwy arthur (ada mary worth)",1,33,1,2,C.A. 34651,0.05416439273810667,False,True
+474,1,2,"jerwan, mrs. amin s (marie marthe thuillard)",1,23,0,0,SC/AH Basle 541,0.026919605597338588,False,False
+475,0,3,"strandberg, miss. ida sofia",1,22,0,0,7553,0.019201521209409888,False,True
+476,0,1,"clifford, mr. george quincy",0,28,0,0,110465,0.10149724044618187,False,True
+477,0,2,"renouf, mr. peter henry",0,34,1,0,31027,0.04098927018018883,False,True
+478,0,3,"braund, mr. lewis richard",0,29,1,0,3460,0.013752485706455927,False,True
+479,0,3,"karlsson, mr. nils august",0,22,0,0,350060,0.014679623960531627,False,True
+481,0,3,"goodwin, master. harold victor",0,9,5,2,CA 2144,0.09154270340242172,False,True
+482,0,2,"frost, mr. anthony wood ""archie""",0,28,0,0,239854,0.0,False,True
+483,0,3,"rouse, mr. richard henry",0,50,0,0,A/5 3594,0.015712553569072387,False,True
+485,1,1,"bishop, mr. dickinson h",0,25,1,0,11967,0.17777475888549785,False,False
+486,0,3,"lefebre, miss. jeannie",1,28,3,1,4133,0.04970768794751499,False,True
+487,1,1,"hoyt, mrs. frederick maxfield (jane anne forby)",1,35,1,0,19943,0.17566830077223786,False,True
+489,0,3,"somerton, mr. francis william",0,30,0,0,A.5. 18509,0.015712553569072387,False,True
+490,1,3,"coutts, master. eden leslie ""neville""",0,9,1,1,C.A. 37671,0.031034733136428686,False,True
+491,0,3,"hagland, mr. konrad mathias reiersen",0,28,1,0,65304,0.03897240290032268,False,True
+492,0,3,"windelov, mr. einar",0,21,0,0,SOTON/OQ 3101317,0.014151057562208049,False,True
+495,0,3,"stanley, mr. edward roland",0,21,0,0,A/4 45380,0.015712553569072387,False,True
+496,0,3,"yousseff, mr. gerious",0,28,0,0,2627,0.028220722145058292,False,False
+497,1,1,"eustis, miss. elizabeth mussey",1,54,1,0,36947,0.1527664244005612,False,False
+498,0,3,"shellard, mr. frederick william",0,28,0,0,C.A. 6212,0.029473237129564348,False,True
+499,0,1,"allison, mrs. hudson j c (bessie waldo daniels)",1,25,1,2,113781,0.29580589980036276,False,True
+500,0,3,"svensson, mr. olof",0,24,0,0,350035,0.015216388212891242,False,True
+501,0,3,"calic, mr. petar",0,17,0,0,315086,0.016908073949327893,False,True
+502,0,3,"canavan, miss. mary",1,21,0,0,364846,0.015126992566498259,True,False
+503,0,3,"o'sullivan, miss. bridget mary",1,28,0,0,330909,0.014891206669461744,True,False
+504,0,3,"laitinen, miss. kristina sofia",1,37,0,0,4135,0.018713553707264782,False,True
+505,1,1,"maioni, miss. roberta",1,16,0,0,110152,0.16883675574220638,False,True
+506,0,1,"penasco y castellana, mr. victor de satode",0,18,1,0,PC 17758,0.2125586439344078,False,False
+507,1,2,"quick, mrs. frederick charles (jane richards)",1,33,0,2,26360,0.050748620223090936,False,True
+508,1,1,"bradley, mr. george (""george arthur brayton"")",0,28,0,0,111427,0.051822148727810165,False,True
+509,0,3,"olsen, mr. henry margido",0,28,0,0,C 4001,0.04396587194327397,False,True
+510,1,3,"lang, mr. fang",0,26,0,0,1601,0.11027245763075773,False,True
+511,1,3,"daly, mr. eugene patrick",0,29,0,0,382651,0.015126992566498259,True,False
+512,0,3,"webber, mr. james",0,28,0,0,SOTON/OQ 3101316,0.015712553569072387,False,True
+513,1,1,"mcgough, mr. james robert",0,36,0,0,PC 17473,0.05130978285055781,False,True
+514,1,1,"rothschild, mrs. martin (elizabeth l. barrett)",1,54,1,0,PC 17603,0.11594107850967697,False,False
+515,0,3,"coleff, mr. satio",0,24,0,0,349209,0.014630827210317115,False,True
+516,0,1,"walker, mr. william anderson",0,47,0,0,36967,0.06640417918791278,False,True
+517,1,2,"lemore, mrs. (amelia milley)",1,34,0,0,C.A. 34260,0.020494635090094415,False,True
+518,0,3,"ryan, mr. patrick",0,28,0,0,371110,0.04713766070721715,True,False
+519,1,2,"angle, mrs. william a (florence ""mary"" agnes hughes)",1,36,1,0,226875,0.050748620223090936,False,True
+520,0,3,"pavlovic, mr. stefo",0,32,0,0,349242,0.015411575213749284,False,True
+521,1,1,"perreault, miss. anne",1,30,0,0,12749,0.18249984580226933,False,True
+522,0,3,"vovk, mr. janko",0,22,0,0,349252,0.015411575213749284,False,True
+523,0,3,"lahoud, mr. sarkis",0,28,0,0,2624,0.014102260811993537,False,False
+524,1,1,"hippach, mrs. louis albert (ida sophia fischer)",1,44,0,1,111361,0.11316786160148591,False,False
+525,0,3,"kassem, mr. fared",0,28,0,0,2700,0.014110458666029575,False,False
+526,0,3,"farrell, mr. james",0,40,0,0,367232,0.015126992566498259,True,False
+527,1,2,"ridsdale, miss. lucy",1,50,0,0,W./C. 14258,0.020494635090094415,False,True
+528,0,1,"farthing, mr. john",0,28,0,0,PC 17483,0.4328841690069588,False,True
+529,0,3,"salonen, mr. johan werner",0,39,0,0,3101296,0.015468569817999833,False,True
+530,0,2,"hocking, mr. richard george",0,23,2,1,29104,0.022446505098674834,False,True
+532,0,3,"toufik, mr. nakli",0,28,0,0,2641,0.014110458666029575,False,False
+533,0,3,"elias, mr. joseph jr",0,17,1,1,2690,0.014110458666029575,False,False
+534,1,3,"peter, mrs. catherine (catherine rizk)",1,28,0,2,2668,0.04364049521284361,False,False
+535,0,3,"cacic, miss. marija",1,30,0,0,315084,0.016908073949327893,False,True
+536,1,2,"hart, miss. eva miriam",1,7,0,2,F.C.C. 13529,0.05123658772523604,False,True
+537,0,1,"butt, major. archibald willingham",0,45,0,0,113050,0.051822148727810165,False,True
+538,1,1,"leroy, miss. bertha",1,30,0,0,PC 17761,0.20772776566317125,False,False
+539,0,3,"risien, mr. samuel beard",0,28,0,0,364498,0.028302115124416098,False,True
+540,1,1,"frolicher, miss. hedwig margaritha",1,22,0,2,13568,0.09661756542473081,False,False
+541,1,1,"crosby, miss. harriet r",1,36,0,2,WE/P 5735,0.13858277060920984,False,True
+542,0,3,"andersson, miss. ingeborg constanzia",1,9,4,2,347082,0.06104473451835265,False,True
+543,0,3,"andersson, miss. sigrid elisabeth",1,11,4,2,347082,0.06104473451835265,False,True
+544,1,2,"beane, mr. edward",0,32,1,0,2908,0.050748620223090936,False,True
+545,0,1,"douglas, mr. walter donald",0,50,1,0,PC 17761,0.20772776566317125,False,False
+547,1,2,"beane, mrs. edward (ethel clarke)",1,19,1,0,2908,0.050748620223090936,False,True
+548,1,2,"padro y manent, mr. julian",0,28,0,0,SC/PARIS 2146,0.02705779799394608,False,False
+549,0,3,"goldsmith, mr. frank john",0,33,1,1,363291,0.04006213192611313,False,True
+550,1,2,"davies, master. john morgan jr",0,8,1,1,C.A. 33112,0.07173122281533045,False,True
+551,1,1,"thayer, mr. john borland jr",0,17,0,2,17421,0.21642978772242535,False,False
+552,0,2,"sharp, mr. percival james r",0,27,0,0,244358,0.050748620223090936,False,True
+553,0,3,"o'brien, mr. timothy",0,28,0,0,330979,0.015281580671177828,True,False
+554,1,3,"leeni, mr. fahim (""philip zenni"")",0,22,0,0,2620,0.014102260811993537,False,False
+555,1,3,"ohman, miss. velin",1,22,0,0,347085,0.015175789316712771,False,True
+557,1,1,"duff gordon, lady. (lucille christiana sutherland) (""mrs morgan"")",1,48,1,0,11755,0.07729405233978466,False,False
+558,0,1,"robbins, mr. victor",0,28,0,0,PC 17757,0.4440992237022602,False,False
+559,1,1,"taussig, mrs. emil (tillie mandelbaum)",1,39,1,1,110413,0.1554664461834305,False,True
+560,1,3,"de messemaeker, mrs. guillaume joseph (emma)",1,36,1,0,345572,0.033962538149299316,False,True
+561,0,3,"morrow, mr. thomas rowan",0,28,0,0,372622,0.015126992566498259,True,False
+562,0,3,"sivic, mr. husein",0,40,0,0,349251,0.015411575213749284,False,True
+563,0,2,"norman, mr. robert douglas",0,28,0,0,218629,0.026350245115835676,False,True
+564,0,3,"simmons, mr. john",0,28,0,0,SOTON/OQ 392082,0.015712553569072387,False,True
+565,0,3,"meanwell, miss. (marion ogden)",1,28,0,0,SOTON/O.Q. 392087,0.015712553569072387,False,True
+566,0,3,"davies, mr. alfred j",0,24,2,0,A/4 48871,0.04713766070721715,False,True
+567,0,3,"stoytcheff, mr. ilia",0,19,0,0,349205,0.015411575213749284,False,True
+568,0,3,"palsson, mrs. nils (alma cornelia berglund)",1,29,0,4,349909,0.04113566043083236,False,True
+569,0,3,"doharr, mr. tannous",0,28,0,0,2686,0.014110458666029575,False,False
+570,1,3,"jonsson, mr. carl",0,32,0,0,350417,0.015330377421392339,False,True
+572,1,1,"appleton, mrs. edward dale (charlotte lamson)",1,53,2,0,11769,0.10048070654571319,False,True
+573,1,1,"flynn, mr. john irwin (""irving"")",0,36,0,0,PC 17474,0.051504969851415845,False,True
+574,1,3,"kelly, miss. mary",1,28,0,0,14312,0.015126992566498259,True,False
+575,0,3,"rush, mr. alfred george john",0,16,0,0,A/4. 20589,0.015712553569072387,False,True
+576,0,3,"patchett, mr. george",0,19,0,0,358585,0.028302115124416098,False,True
+577,1,2,"garside, miss. ethel",1,34,0,0,243880,0.025374310111545468,False,True
+578,1,1,"silvey, mrs. william baird (alice munger)",1,39,1,0,13507,0.1091095334796455,False,True
+579,0,3,"caram, mrs. joseph (maria elias)",1,28,1,0,2689,0.028220722145058292,False,False
+580,1,3,"jussila, mr. eiriik",0,32,0,0,STON/O 2. 3101286,0.015468569817999833,False,True
+581,1,2,"christy, miss. julie rachel",1,25,1,1,237789,0.05855610025741261,False,True
+582,1,1,"thayer, mrs. john borland (marian longstreth morris)",1,39,1,1,17421,0.21642978772242535,False,False
+583,0,2,"downton, mr. william james",0,54,0,0,28403,0.050748620223090936,False,True
+584,0,1,"ross, mr. john hugo",0,36,0,0,13049,0.07831878409428937,False,False
+585,0,3,"paulner, mr. uscher",0,28,0,0,3411,0.017005667449756914,False,False
+586,1,1,"taussig, miss. ruth",1,18,0,2,110413,0.1554664461834305,False,True
+587,0,2,"jarvis, mr. john denzil",0,47,0,0,237565,0.029278050128706306,False,True
+589,0,3,"gilinski, mr. eliezer",0,22,0,0,14973,0.015712553569072387,False,True
+590,0,3,"murdlin, mr. joseph",0,28,0,0,A./5. 3235,0.015712553569072387,False,True
+591,0,3,"rintamaki, mr. matti",0,35,0,0,STON/O 2. 3101273,0.013907073811135496,False,True
+592,1,1,"stephenson, mrs. walter bertram (martha eustis)",1,52,1,0,36947,0.1527664244005612,False,False
+593,0,3,"elsbury, mr. william james",0,47,0,0,A/5 3902,0.014151057562208049,False,True
+594,0,3,"bourke, miss. mary",1,28,0,2,364848,0.015126992566498259,True,False
+595,0,2,"chapman, mr. john henry",0,37,1,0,SC/AH 29037,0.050748620223090936,False,True
+596,0,3,"van impe, mr. jean baptiste",0,36,1,1,345773,0.04713766070721715,False,True
+597,1,2,"leitch, miss. jessie wills",1,28,0,0,248727,0.06441171028315387,False,True
+598,0,3,"johnson, mr. alfred",0,49,0,0,LINE,0.0,False,True
+599,0,3,"boulos, mr. hanna",0,28,0,0,2664,0.014102260811993537,False,False
+600,1,1,"duff gordon, sir. cosmo edmund (""mr morgan"")",0,49,1,0,PC 17485,0.11111839809247648,False,False
+601,1,2,"jacobsohn, mrs. sidney samuel (amy frances christy)",1,24,2,1,243847,0.05270049023167135,False,True
+602,0,3,"slabenoff, mr. petco",0,28,0,0,349214,0.015411575213749284,False,True
+603,0,1,"harrington, mr. charles h",0,28,0,0,113796,0.08275928836380983,False,True
+604,0,3,"torber, mr. ernst william",0,44,0,0,364511,0.015712553569072387,False,True
+605,1,1,"homer, mr. harry (""mr e haven"")",0,35,0,0,111426,0.051822148727810165,False,False
+606,0,3,"lindell, mr. edvard bengtsson",0,36,1,0,349910,0.030351578633425542,False,True
+607,0,3,"karaic, mr. milan",0,30,0,0,349246,0.015411575213749284,False,True
+608,1,1,"daniel, mr. robert williams",0,27,0,0,113804,0.05953203526170282,False,True
+609,1,2,"laroche, mrs. joseph (juliette marie louise lafargue)",1,22,1,2,SC/Paris 2123,0.08115719346076702,False,False
+610,1,1,"shutes, miss. elizabeth w",1,40,0,0,PC 17582,0.2995388511917728,False,True
+611,0,3,"andersson, mrs. anders johan (alfrida konstantia brogren)",1,39,1,5,347082,0.06104473451835265,False,True
+612,0,3,"jardin, mr. jose neto",0,28,0,0,SOTON/O.Q. 3101305,0.013760683560491965,False,True
+613,1,3,"murphy, miss. margaret jane",1,28,1,0,367230,0.030253985132996517,True,False
+614,0,3,"horgan, mr. john",0,28,0,0,370377,0.015126992566498259,True,False
+615,0,3,"brocklebank, mr. william alfred",0,35,0,0,364512,0.015712553569072387,False,True
+616,1,2,"herman, miss. alice",1,24,1,2,220845,0.12687155055772734,False,True
+617,0,3,"danbom, mr. ernst gilbert",0,34,1,1,347080,0.028106928123558056,False,True
+618,0,3,"lobb, mrs. william arthur (cordelia k stanlick)",1,26,1,0,A/5. 3336,0.031425107138144774,False,True
+619,1,2,"becker, miss. marion louise",1,4,2,1,230136,0.0761229303346364,False,True
+620,0,2,"gavey, mr. lawrence",0,26,0,0,31028,0.020494635090094415,False,True
+621,0,3,"yasbeck, mr. antoni",0,27,1,0,2659,0.028212719478023115,False,False
+622,1,1,"kimball, mr. edwin nelson jr",0,42,1,0,11753,0.10257896680493714,False,True
+623,1,3,"nakid, mr. sahid",0,20,1,1,2653,0.030725752114070404,False,False
+624,0,3,"hansen, mr. henry damsgaard",0,21,0,0,350029,0.015330377421392339,False,True
+625,0,3,"bowen, mr. david john ""dai""",0,21,0,0,54636,0.031425107138144774,False,True
+628,1,1,"longley, miss. gretchen fiske",1,21,0,0,13502,0.15216446768991498,False,True
+629,0,3,"bostandyeff, mr. guentcho",0,26,0,0,349224,0.015411575213749284,False,True
+630,0,3,"o'connell, mr. patrick d",0,28,0,0,334912,0.015094396337354966,True,False
+632,0,3,"lundahl, mr. johan svensson",0,51,0,0,347743,0.013768881414528002,False,True
+633,1,1,"stahelin-maeglin, dr. max",0,32,0,0,13214,0.05953203526170282,False,False
+634,0,1,"parr, mr. william henry marsh",0,28,0,0,112052,0.0,False,True
+635,0,3,"skoog, miss. mabel",1,9,3,2,347088,0.05445717323939373,False,True
+636,1,2,"davis, miss. mary",1,28,0,0,237668,0.025374310111545468,False,True
+637,0,3,"leinonen, mr. antti gustaf",0,32,0,0,STON/O 2. 3101292,0.015468569817999833,False,True
+638,0,2,"collyer, mr. harvey",0,31,1,1,C.A. 31921,0.05123658772523604,False,True
+639,0,3,"panula, mrs. juha (maria emilia ojala)",1,41,0,5,3101295,0.07746484096553544,False,True
+640,0,3,"thorneycroft, mr. percival",0,28,1,0,376564,0.031425107138144774,False,True
+641,0,3,"jensen, mr. hans peder",0,20,0,0,350050,0.015330377421392339,False,True
+642,1,1,"sagesser, mlle. emma",1,24,0,0,PC 17477,0.13526459159462315,False,False
+644,1,3,"foo, mr. choong",0,28,0,0,1601,0.11027245763075773,False,True
+646,1,1,"harper, mr. henry sleeper",0,48,1,0,PC 17572,0.1497654242623688,False,False
+647,0,3,"cor, mr. liudevit",0,19,0,0,349231,0.015411575213749284,False,True
+649,0,3,"willey, mr. edward",0,28,0,0,S.O./P.P. 751,0.014736618564782174,False,True
+650,1,3,"stanley, miss. amy zillah elsie",1,23,0,0,CA. 2314,0.014736618564782174,False,True
+651,0,3,"mitkoff, mr. mito",0,28,0,0,349221,0.015411575213749284,False,True
+652,1,2,"doling, miss. elsie",1,18,0,1,231919,0.04489301019734967,False,True
+653,0,3,"kalvik, mr. johannes halvorsen",0,21,0,0,8475,0.01646070534336126,False,True
+654,1,3,"o'leary, miss. hanora ""norah""",1,28,0,0,330919,0.015281580671177828,True,False
+655,0,3,"hegarty, miss. hanora ""nora""",1,18,0,0,365226,0.013175122557917838,True,False
+656,0,2,"hickman, mr. leonard mark",0,24,2,0,S.O.C. 14879,0.1434624456306609,False,True
+657,0,3,"radeff, mr. alexander",0,28,0,0,349223,0.015411575213749284,False,True
+658,0,3,"bourke, mrs. john (catherine)",1,32,1,1,364849,0.030253985132996517,True,False
+659,0,2,"eitemiller, mr. george floyd",0,23,0,0,29751,0.025374310111545468,False,True
+661,1,1,"frauenthal, dr. henry william",0,50,2,0,PC 17611,0.2608674266467732,False,True
+662,0,3,"badt, mr. mohamed",0,40,0,0,2623,0.014102260811993537,False,False
+663,0,1,"colley, mr. edward pomeroy",0,47,0,0,5727,0.04994347384455151,False,True
+664,0,3,"coleff, mr. peju",0,36,0,0,349210,0.014630827210317115,False,True
+665,1,3,"lindqvist, mr. eino william",0,20,1,0,STON/O 2. 3101285,0.015468569817999833,False,True
+666,0,2,"hickman, mr. lewis",0,32,2,0,S.O.C. 14879,0.1434624456306609,False,True
+667,0,2,"butler, mr. reginald fenton",0,25,0,0,234686,0.025374310111545468,False,True
+668,0,3,"rommetvedt, mr. knud paust",0,28,0,0,312993,0.015175789316712771,False,True
+669,0,3,"cook, mr. jacob",0,43,0,0,A/5 3536,0.015712553569072387,False,True
+670,1,1,"taylor, mrs. elmer zebley (juliet cummins wright)",1,28,1,0,19996,0.10149724044618187,False,True
+671,1,2,"brown, mrs. thomas william solomon (elizabeth catherine ford)",1,40,1,1,29750,0.0761229303346364,False,True
+672,0,1,"davidson, mr. thornton",0,31,1,0,F.C. 12750,0.10149724044618187,False,True
+674,1,2,"wilhelms, mr. charles",0,31,0,0,244270,0.025374310111545468,False,True
+675,0,2,"watson, mr. ennis hastings",0,28,0,0,239856,0.0,False,True
+676,0,3,"edvardsson, mr. gustaf hjalmar",0,18,0,0,349912,0.015175789316712771,False,True
+677,0,3,"sawyer, mr. frederick charles",0,24,0,0,342826,0.015712553569072387,False,True
+678,1,3,"turja, miss. anna sofia",1,18,0,0,4138,0.019209719063445922,False,True
+679,0,3,"goodwin, mrs. frederick (augusta tyler)",1,43,1,6,CA 2144,0.09154270340242172,False,True
+680,1,1,"cardeza, mr. thomas drake martinez",0,36,0,1,PC 17755,1.0,False,False
+681,0,3,"peters, miss. katie",1,28,0,0,330935,0.01588334219482317,True,False
+682,1,1,"hassab, mr. hammad",0,27,0,0,PC 17572,0.1497654242623688,False,False
+683,0,3,"olsvigen, mr. thor anderson",0,20,0,0,6563,0.01800600082915438,False,True
+684,0,3,"goodwin, mr. charles edward",0,14,5,2,CA 2144,0.09154270340242172,False,True
+686,0,2,"laroche, mr. joseph philippe lemercier",0,25,1,2,SC/Paris 2123,0.08115719346076702,False,False
+687,0,3,"panula, mr. jaako arnold",0,14,4,1,3101295,0.07746484096553544,False,True
+688,0,3,"dakic, mr. branko",0,19,0,0,349228,0.019852079483269742,False,True
+689,0,3,"fischer, mr. eberhard thelander",0,18,0,0,350036,0.015216388212891242,False,True
+690,1,1,"madill, miss. georgette alexandra",1,15,0,1,24160,0.41250332793836464,False,True
+691,1,1,"dick, mr. albert adrian",0,31,1,0,17474,0.11125659048908397,False,True
+692,1,3,"karun, miss. manca",1,4,0,1,349256,0.026187654344120927,False,False
+693,1,3,"lam, mr. ali",0,28,0,0,1601,0.11027245763075773,False,True
+694,0,3,"saad, mr. khalil",0,25,0,0,2672,0.014102260811993537,False,False
+696,0,2,"chapman, mr. charles henry",0,52,0,0,248731,0.026350245115835676,False,True
+697,0,3,"kelly, mr. james",0,44,0,0,363592,0.015712553569072387,False,True
+698,1,3,"mullens, miss. katherine ""katie""",1,28,0,0,35852,0.015094396337354966,True,False
+699,0,1,"thayer, mr. john borland",0,49,1,1,17421,0.21642978772242535,False,False
+700,0,3,"humblen, mr. adolf mathias nicolai olsen",0,42,0,0,348121,0.014931805565640218,False,True
+701,1,1,"astor, mrs. john jacob (madeleine talmadge force)",1,18,1,0,PC 17757,0.4440992237022602,False,False
+702,1,1,"silverthorne, mr. spencer victor",0,35,0,0,PC 17475,0.05130978285055781,False,True
+703,0,3,"barbara, miss. saiide",1,18,0,1,2691,0.028212719478023115,False,False
+704,0,3,"gallagher, mr. martin",0,25,0,0,36864,0.01511079204542704,True,False
+705,0,3,"hansen, mr. henrik juul",0,26,1,0,350025,0.015330377421392339,False,True
+706,0,2,"morley, mr. henry samuel (""mr henry marshall"")",0,39,0,0,250655,0.050748620223090936,False,True
+707,1,2,"kelly, mrs. florence ""fannie""",1,45,0,0,223596,0.026350245115835676,False,True
+708,1,1,"calderhead, mr. edward pennington",0,42,0,0,PC 17476,0.05130978285055781,False,True
+709,1,1,"cleaver, miss. alice",1,22,0,0,113781,0.29580589980036276,False,True
+710,1,3,"moubarek, master. halim gonios (""william george"")",0,28,1,1,2661,0.029757819776815374,False,False
+711,1,1,"mayne, mlle. berthe antonine (""mrs de villiers"")",1,24,0,0,PC 17482,0.09662576327876685,False,False
+712,0,1,"klaber, mr. herman",0,28,0,0,113028,0.051822148727810165,False,True
+713,1,1,"taylor, mr. elmer zebley",0,48,1,0,19996,0.10149724044618187,False,True
+714,0,3,"larsson, mr. august viktor",0,29,0,0,7545,0.018510168852370702,False,True
+715,0,2,"greenberg, mr. samuel",0,52,0,0,250647,0.025374310111545468,False,True
+716,0,3,"soholt, mr. peter andreas lauritz andersen",0,19,0,0,348124,0.014931805565640218,False,True
+717,1,1,"endres, miss. caroline louise",1,38,0,0,PC 17757,0.4440992237022602,False,False
+718,1,2,"troutt, miss. edwina celia ""winnie""",1,27,0,0,34218,0.020494635090094415,False,True
+719,0,3,"mcevoy, mr. michael",0,28,0,0,36568,0.030253985132996517,True,False
+720,0,3,"johnson, mr. malkolm joackim",0,33,0,0,347062,0.015175789316712771,False,True
+721,1,2,"harper, miss. annie jessie ""nina""",1,6,0,1,248727,0.06441171028315387,False,True
+722,0,3,"jensen, mr. svend lauritz",0,17,1,0,350048,0.013768881414528002,False,True
+723,0,2,"gillespie, mr. william henry",0,34,0,0,12233,0.025374310111545468,False,True
+724,0,2,"hodges, mr. henry price",0,50,0,0,250643,0.025374310111545468,False,True
+725,1,1,"chambers, mr. norman campbell",0,27,1,0,113806,0.10364429745562033,False,True
+726,0,3,"oreskovic, mr. luka",0,20,0,0,315094,0.016908073949327893,False,True
+727,1,2,"renouf, mrs. peter henry (lillian jefferys)",1,30,3,0,31027,0.04098927018018883,False,True
+728,1,3,"mannion, miss. margareth",1,28,0,0,36866,0.015102594191391002,True,False
+729,0,2,"bryhl, mr. kurt arnold gottfrid",0,25,1,0,236853,0.050748620223090936,False,True
+730,0,3,"ilmakangas, miss. pieta sofia",1,25,1,0,STON/O2. 3101271,0.015468569817999833,False,True
+731,1,1,"allen, miss. elisabeth walton",1,29,0,0,24160,0.41250332793836464,False,True
+732,0,3,"hassan, mr. houssein g n",0,11,0,0,2699,0.036670757786204655,False,False
+733,0,2,"knight, mr. robert j",0,28,0,0,239855,0.0,False,True
+734,0,2,"berriman, mr. william john",0,23,0,0,28425,0.025374310111545468,False,True
+735,0,2,"troupiansky, mr. moses aaron",0,23,0,0,233639,0.025374310111545468,False,True
+736,0,3,"williams, mr. leslie",0,28,0,0,54636,0.031425107138144774,False,True
+737,0,3,"ford, mrs. edward (margaret ann watson)",1,48,1,3,W./C. 6608,0.06709553154495196,False,True
+738,1,1,"lesurer, mr. gustave j",0,35,0,0,PC 17755,1.0,False,False
+739,0,3,"ivanoff, mr. kanio",0,28,0,0,349201,0.015411575213749284,False,True
+740,0,3,"nankoff, mr. minko",0,28,0,0,349218,0.015411575213749284,False,True
+741,1,1,"hawksford, mr. walter james",0,28,0,0,16988,0.05855610025741261,False,True
+742,0,1,"cavendish, mr. tyrell william",0,36,1,0,19877,0.15390495017656614,False,True
+743,1,1,"ryerson, miss. susan parker ""suzette""",1,21,2,2,PC 17608,0.5121218935012878,False,False
+744,0,3,"mcnamee, mr. neal",0,24,1,0,376566,0.031425107138144774,False,True
+745,1,3,"stranden, mr. juho",0,31,0,0,STON/O 2. 3101288,0.015468569817999833,False,True
+747,0,3,"abbott, mr. rossmore edward",0,16,1,1,C.A. 2673,0.03952536767375352,False,True
+748,1,2,"sinkkonen, miss. anna",1,30,0,0,250648,0.025374310111545468,False,True
+749,0,1,"marvin, mr. daniel warner",0,19,1,0,113773,0.10364429745562033,False,True
+750,0,3,"connaghton, mr. michael",0,31,0,0,335097,0.015126992566498259,True,False
+751,1,2,"wells, miss. joan",1,4,1,1,29103,0.04489301019734967,False,True
+752,1,3,"moor, master. meier",0,6,0,1,392096,0.024349578357040744,False,True
+753,0,3,"vande velde, mr. johannes joseph",0,33,0,0,345780,0.018542765081513996,False,True
+754,0,3,"jonkoff, mr. lalio",0,23,0,0,349204,0.015411575213749284,False,True
+755,1,2,"herman, mrs. samuel (jane laver)",1,48,1,2,220845,0.12687155055772734,False,True
+757,0,3,"carlsson, mr. august sigfrid",0,28,0,0,350042,0.015216388212891242,False,True
+758,0,2,"bailey, mr. percy andrew",0,18,0,0,29108,0.022446505098674834,False,True
+759,0,3,"theobald, mr. thomas leonard",0,34,0,0,363294,0.015712553569072387,False,True
+760,1,1,"rothes, the countess. of (lucy noel martha dyer-edwards)",1,33,0,0,110152,0.16883675574220638,False,True
+761,0,3,"garfirth, mr. john",0,28,0,0,358585,0.028302115124416098,False,True
+762,0,3,"nirva, mr. iisakki antino aijo",0,41,0,0,SOTON/O2 3101272,0.013907073811135496,False,True
+763,1,3,"barah, mr. hanna assi",0,20,0,0,2663,0.014110458666029575,False,False
+764,1,1,"carter, mrs. william ernest (lucile polk)",1,36,1,2,113760,0.23422440102965045,False,True
+765,0,3,"eklund, mr. hans linus",0,16,0,0,347074,0.015175789316712771,False,True
+766,1,1,"hogeboom, mrs. john c (anna andrews)",1,51,1,0,13502,0.15216446768991498,False,True
+767,0,1,"brewe, dr. arthur jackson",0,28,0,0,112379,0.07729405233978466,False,False
+768,0,3,"mangan, miss. mary",1,30,0,0,364850,0.015126992566498259,True,False
+769,0,3,"moran, mr. daniel j",0,28,1,0,371110,0.04713766070721715,True,False
+770,0,3,"gronnestad, mr. daniel danielsen",0,32,0,0,8471,0.016322512946753766,False,True
+771,0,3,"lievens, mr. rene aime",0,24,0,0,345781,0.018542765081513996,False,True
+772,0,3,"jensen, mr. niels peder",0,48,0,0,350047,0.015330377421392339,False,True
+774,0,3,"elias, mr. dibo",0,28,0,0,2674,0.014102260811993537,False,False
+775,1,2,"hocking, mrs. elizabeth (eliza needs)",1,54,1,3,29105,0.04489301019734967,False,True
+776,0,3,"myhrman, mr. pehr fabian oliver malkolm",0,18,0,0,347078,0.015126992566498259,False,True
+777,0,3,"tobin, mr. roger",0,28,0,0,383121,0.015126992566498259,True,False
+778,1,3,"emanuel, miss. virginia ethel",1,5,0,0,364516,0.024349578357040744,False,True
+779,0,3,"kilgannon, mr. thomas j",0,28,0,0,36865,0.015102594191391002,True,False
+780,1,1,"robert, mrs. edward scott (elisabeth walton mcmillan)",1,43,0,1,24160,0.41250332793836464,False,True
+781,1,3,"ayoub, miss. banoura",1,13,0,0,2687,0.014110458666029575,False,False
+782,1,1,"dick, mrs. albert adrian (vera gillespie)",1,17,1,0,17474,0.11125659048908397,False,True
+783,0,1,"long, mr. milton clyde",0,29,0,0,113501,0.05855610025741261,False,True
+784,0,3,"johnston, mr. andrew g",0,28,1,2,W./C. 6607,0.04577135170121086,False,True
+785,0,3,"ali, mr. william",0,25,0,0,SOTON/O.Q. 3101312,0.013760683560491965,False,True
+786,0,3,"harmer, mr. abraham (david lishin)",0,25,0,0,374887,0.014151057562208049,False,True
+787,1,3,"sjoblom, miss. anna sofia",1,18,0,0,3101265,0.014630827210317115,False,True
+788,0,3,"rice, master. george hugh",0,8,4,1,382652,0.056848213999904744,True,False
+790,0,1,"guggenheim, mr. benjamin",0,46,0,0,PC 17593,0.15458810467956932,False,False
+791,0,3,"keane, mr. andrew ""andy""",0,28,0,0,12460,0.015126992566498259,True,False
+792,0,2,"gaskell, mr. alfred",0,16,0,0,239865,0.050748620223090936,False,True
+793,0,3,"sage, miss. stella anna",1,28,8,2,CA. 2343,0.13575255909676823,False,True
+794,0,1,"hoyt, mr. william fisher",0,28,0,0,PC 17600,0.05991421140938287,False,False
+795,0,3,"dantcheff, mr. ristiu",0,25,0,0,349203,0.015411575213749284,False,True
+796,0,2,"otter, mr. richard",0,39,0,0,28213,0.025374310111545468,False,True
+797,1,1,"leader, dr. alice (farnham)",1,49,0,0,17465,0.050610427826483444,False,True
+798,1,3,"osman, mrs. mara",1,31,0,0,349244,0.016948672845506364,False,True
+799,0,3,"ibrahim shawah, mr. yousseff",0,30,0,0,2685,0.014110458666029575,False,False
+800,0,3,"van impe, mrs. jean baptiste (rosalie paula govaert)",1,30,1,1,345773,0.04713766070721715,False,True
+801,0,2,"ponesell, mr. martin",0,34,0,0,250647,0.025374310111545468,False,True
+802,1,2,"collyer, mrs. harvey (charlotte annie tate)",1,31,1,1,C.A. 31921,0.05123658772523604,False,True
+803,1,1,"carter, master. william thornton ii",0,11,1,2,113760,0.23422440102965045,False,True
+805,1,3,"hedman, mr. oskar arvid",0,27,0,0,347089,0.013614293309848433,False,True
+806,0,3,"johansson, mr. karl johan",0,31,0,0,347063,0.015175789316712771,False,True
+807,0,1,"andrews, mr. thomas jr",0,39,0,0,112050,0.0,False,True
+808,0,3,"pettersson, miss. ellen natalia",1,18,0,0,347087,0.015175789316712771,False,True
+809,0,2,"meyer, mr. august",0,39,0,0,248723,0.025374310111545468,False,True
+810,1,1,"chambers, mrs. norman campbell (bertha griggs)",1,33,1,0,113806,0.10364429745562033,False,True
+811,0,3,"alexander, mr. william",0,26,0,0,3474,0.015395374692678068,False,True
+812,0,3,"lester, mr. james",0,39,0,0,A/4 48871,0.04713766070721715,False,True
+813,0,2,"slemen, mr. richard james",0,35,0,0,28206,0.020494635090094415,False,True
+814,0,3,"andersson, miss. ebba iris alfrida",1,6,4,2,347082,0.06104473451835265,False,True
+815,0,3,"tomlin, mr. ernest portage",0,30,0,0,364499,0.015712553569072387,False,True
+816,0,1,"fry, mr. richard",0,28,0,0,112058,0.0,False,True
+817,0,3,"heininen, miss. wendla maria",1,23,0,0,STON/O2. 3101290,0.015468569817999833,False,True
+818,0,2,"mallet, mr. albert",0,31,1,1,S.C./PARIS 2079,0.07222738817151159,False,False
+819,0,3,"holm, mr. john fredrik alexander",0,43,0,0,C 7075,0.012589561555343713,False,True
+820,0,3,"skoog, master. karl thorsten",0,10,3,2,347088,0.05445717323939373,False,True
+821,1,1,"hays, mrs. charles melville (clara jennings gregg)",1,52,1,1,12749,0.18249984580226933,False,True
+822,1,3,"lulic, mr. nikola",0,27,0,0,315098,0.016908073949327893,False,True
+823,0,1,"reuchlin, jonkheer. john george",0,38,0,0,19972,0.0,False,True
+824,1,3,"moor, mrs. (beila)",1,27,0,1,392096,0.024349578357040744,False,True
+826,0,3,"flynn, mr. john",0,28,0,0,368323,0.013565496559633922,True,False
+827,0,3,"lam, mr. len",0,28,0,0,1601,0.11027245763075773,False,True
+829,1,3,"mccormack, mr. thomas joseph",0,28,0,0,367228,0.015126992566498259,True,False
+831,1,3,"yasbeck, mrs. antoni (selini alexander)",1,15,1,0,2659,0.028212719478023115,False,False
+833,0,3,"saad, mr. amin",0,28,0,0,2671,0.014110458666029575,False,False
+834,0,3,"augustsson, mr. albert",0,23,0,0,347468,0.015330377421392339,False,True
+835,0,3,"allum, mr. owen george",0,18,0,0,2223,0.016200521071217493,False,True
+836,1,1,"compton, miss. sara rebecca",1,39,1,1,PC 17756,0.16231419173453318,False,False
+837,0,3,"pasic, mr. jakob",0,21,0,0,315097,0.016908073949327893,False,True
+838,0,3,"sirota, mr. maurice",0,28,0,0,392092,0.015712553569072387,False,True
+839,1,3,"chip, mr. chang",0,32,0,0,1601,0.11027245763075773,False,True
+840,1,1,"marechal, mr. pierre",0,28,0,0,11774,0.057970539254838485,False,False
+841,0,3,"alhomaki, mr. ilmari rudolf",0,20,0,0,SOTON/O2 3101287,0.015468569817999833,False,True
+842,0,2,"mudd, mr. thomas charles",0,16,0,0,S.O./P.P. 3,0.020494635090094415,False,True
+843,1,1,"serepeca, miss. augusta",1,30,0,0,113798,0.060507970265993034,False,False
+844,0,3,"lemberopolous, mr. peter l",0,34,0,0,2683,0.012565163180236457,False,False
+845,0,3,"culumovic, mr. jeso",0,17,0,0,315090,0.016908073949327893,False,True
+846,0,3,"abbing, mr. anthony",0,42,0,0,C.A. 5547,0.014736618564782174,False,True
+847,0,3,"sage, mr. douglas bullen",0,28,8,2,CA. 2343,0.13575255909676823,False,True
+848,0,3,"markoff, mr. marin",0,35,0,0,349213,0.015411575213749284,False,False
+849,0,2,"harper, rev. john",0,28,0,1,248727,0.06441171028315387,False,True
+850,1,1,"goldenberg, mrs. samuel l (edwiga grabowska)",1,28,1,0,17453,0.17391981561855152,False,False
+851,0,3,"andersson, master. sigvard harald elias",0,4,4,2,347082,0.06104473451835265,False,True
+853,0,3,"boulos, miss. nourelain",1,9,1,1,2678,0.029757819776815374,False,False
+854,1,1,"lines, miss. mary conover",1,16,0,1,PC 17592,0.07690367833806856,False,True
+855,0,2,"carter, mrs. ernest courtenay (lilian hughes)",1,44,1,0,244252,0.050748620223090936,False,True
+856,1,3,"aks, mrs. sam (leah rosen)",1,18,0,1,392091,0.01824998458022693,False,True
+857,1,1,"wick, mrs. george dennick (mary hitchcock)",1,45,1,1,36928,0.32179836714362564,False,True
+858,1,1,"daly, mr. peter denis",0,51,0,0,113055,0.051822148727810165,False,True
+859,1,3,"baclini, mrs. solomon (latifa qurban)",1,24,0,3,2666,0.03758969818624431,False,False
+860,0,3,"razi, mr. raihed",0,28,0,0,2629,0.014110458666029575,False,False
+861,0,3,"hansen, mr. claus peter",0,41,2,0,350026,0.027537567642055148,False,True
+862,0,2,"giles, mr. frederick edward",0,21,1,0,28134,0.022446505098674834,False,True
+863,1,1,"swift, mrs. frederick joel (margaret welles barron)",1,48,0,0,17466,0.050610427826483444,False,True
+864,0,3,"sage, miss. dorothy edith ""dolly""",1,28,8,2,CA. 2343,0.13575255909676823,False,True
+865,0,2,"gill, mr. john william",0,24,0,0,233866,0.025374310111545468,False,True
+866,1,2,"bystrom, mrs. (karolina)",1,42,0,0,236852,0.025374310111545468,False,True
+867,1,2,"duran y more, miss. asuncion",1,27,1,0,SC/PARIS 2149,0.027049600139910042,False,False
+868,0,1,"roebling, mr. washington augustus ii",0,31,0,0,PC 17590,0.09856123757927521,False,True
+869,0,3,"van melkebeke, mr. philemon",0,28,0,0,345777,0.018542765081513996,False,True
+870,1,3,"johnson, master. harold theodor",0,4,1,1,347742,0.021730754366528396,False,True
+871,0,3,"balkic, mr. cerin",0,26,0,0,349248,0.015411575213749284,False,True
+872,1,1,"beckwith, mrs. richard leonard (sallie monypeny)",1,47,1,1,11751,0.10257896680493714,False,True
+873,0,1,"carlsson, mr. frans olof",0,33,0,0,695,0.009759350042902102,False,True
+874,0,3,"vander cruyssen, mr. victor",0,47,0,0,345765,0.017566830077223785,False,True
+875,1,2,"abelson, mrs. samuel (hannah wizosky)",1,28,1,0,P/PP 3381,0.04684488020593009,False,False
+876,1,3,"najib, miss. adele kiamie ""jane""",1,15,0,0,2667,0.014102260811993537,False,False
+877,0,3,"gustafsson, mr. alfred ossian",0,20,0,0,7534,0.019217721730481106,False,True
+878,0,3,"petroff, mr. nedelio",0,19,0,0,349212,0.015411575213749284,False,True
+879,0,3,"laleff, mr. kristo",0,28,0,0,349217,0.015411575213749284,False,True
+881,1,2,"shelley, mrs. william (imanita parrish hall)",1,25,0,1,230433,0.050748620223090936,False,True
+882,0,3,"markun, mr. johann",0,33,0,0,349257,0.015411575213749284,False,True
+883,0,3,"dahlberg, miss. gerda ulrika",1,22,0,0,7552,0.02052723131923771,False,True
+884,0,2,"banfield, mr. frederick james",0,28,0,0,C.A./SOTON 34068,0.020494635090094415,False,True
+885,0,3,"sutehall, mr. henry jr",0,25,0,0,SOTON/OQ 392076,0.013760683560491965,False,True
+886,0,3,"rice, mrs. william (margaret norton)",1,39,0,5,382652,0.056848213999904744,True,False
+887,0,2,"montvila, rev. juozas",0,27,0,0,211536,0.025374310111545468,False,True
+888,1,1,"graham, miss. margaret edith",1,19,0,0,112053,0.05855610025741261,False,True
+889,0,3,"johnston, miss. catherine helen ""carrie""",1,28,1,2,W./C. 6607,0.04577135170121086,False,True
+890,1,1,"behr, mr. karl howell",0,26,0,0,111369,0.05855610025741261,False,False
+891,0,3,"dooley, mr. patrick",0,32,0,0,370376,0.015126992566498259,True,False
