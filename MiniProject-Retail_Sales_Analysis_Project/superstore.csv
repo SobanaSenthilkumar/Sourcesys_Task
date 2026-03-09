@@ -1,0 +1,501 @@
+Order Date,Ship Date,Sales,Profit,Discount,Region,Category,Sub-Category
+2021-07-18,2021-07-21,1563.79,217.8,0.1,Central,Technology,Phones
+2022-01-22,2022-01-27,1210.21,295.65,0.1,East,Technology,Copiers
+2020-03-16,2020-03-18,380.01,-71.62,0.3,West,Office Supplies,Paper
+2020-01-18,2020-01-19,596.63,228.3,0.1,South,Office Supplies,Binders
+2020-08-15,2020-08-21,415.35,159.96,0.3,East,Technology,Accessories
+2019-10-09,2019-10-14,911.99,-190.71,0.0,South,Technology,Phones
+2020-02-16,2020-02-18,213.39,278.96,0.2,South,Office Supplies,Paper
+2020-02-15,2020-02-18,1820.45,-18.85,0.3,South,Technology,Phones
+2021-11-14,2021-11-20,1102.49,-70.6,0.2,West,Office Supplies,Paper
+2018-07-21,2018-07-27,1854.78,309.09,0.2,South,Office Supplies,Paper
+2021-06-29,2021-06-30,1923.12,391.17,0.0,West,Office Supplies,Storage
+2020-03-02,2020-03-04,1931.21,224.92,0.0,East,Technology,Phones
+2018-03-06,2018-03-07,1974.04,340.57,0.3,South,Furniture,Bookcases
+2019-08-16,2019-08-19,1584.55,224.17,0.1,Central,Technology,Copiers
+2020-11-17,2020-11-18,1254.13,31.63,0.3,Central,Office Supplies,Binders
+2020-03-15,2020-03-18,1190.77,-7.69,0.2,East,Technology,Accessories
+2022-01-25,2022-01-28,1526.35,192.89,0.2,West,Technology,Phones
+2019-01-28,2019-01-30,70.33,-124.48,0.2,South,Technology,Copiers
+2019-07-18,2019-07-23,1026.97,435.3,0.2,Central,Technology,Phones
+2021-04-09,2021-04-14,473.02,-146.11,0.2,Central,Furniture,Bookcases
+2019-11-13,2019-11-18,605.35,-126.15,0.3,South,Office Supplies,Paper
+2021-09-16,2021-09-18,261.73,49.41,0.1,East,Office Supplies,Paper
+2021-07-30,2021-08-05,21.03,46.8,0.2,Central,Furniture,Chairs
+2019-10-11,2019-10-17,459.77,-116.09,0.3,South,Office Supplies,Storage
+2021-10-29,2021-10-30,819.6,-154.58,0.1,South,Technology,Copiers
+2021-11-10,2021-11-13,615.74,-0.61,0.0,Central,Office Supplies,Storage
+2019-10-04,2019-10-08,121.93,-4.95,0.0,East,Furniture,Tables
+2021-02-27,2021-03-04,989.12,489.96,0.3,Central,Technology,Accessories
+2021-04-22,2021-04-25,499.48,362.2,0.0,South,Technology,Copiers
+2020-09-08,2020-09-11,1636.54,358.84,0.0,South,Office Supplies,Paper
+2019-04-09,2019-04-14,1719.55,28.17,0.3,Central,Technology,Accessories
+2018-05-27,2018-05-31,1297.44,-77.94,0.0,South,Office Supplies,Storage
+2020-05-21,2020-05-22,1357.87,314.65,0.1,Central,Technology,Accessories
+2021-08-14,2021-08-17,472.53,-77.53,0.3,East,Technology,Accessories
+2020-06-15,2020-06-21,1796.49,430.29,0.2,Central,Furniture,Tables
+2021-01-27,2021-01-30,1457.39,427.98,0.3,West,Furniture,Chairs
+2021-12-14,2021-12-20,1344.6,206.48,0.3,West,Furniture,Bookcases
+2018-06-02,2018-06-07,582.16,13.75,0.1,West,Furniture,Bookcases
+2018-06-10,2018-06-14,489.75,27.78,0.3,South,Technology,Phones
+2019-02-05,2019-02-06,1094.23,156.17,0.1,Central,Technology,Copiers
+2018-02-07,2018-02-13,798.33,424.43,0.2,Central,Office Supplies,Paper
+2020-03-08,2020-03-09,1162.27,144.76,0.0,South,Office Supplies,Binders
+2019-07-01,2019-07-02,106.34,496.19,0.1,East,Furniture,Bookcases
+2019-06-02,2019-06-05,1500.48,467.15,0.0,East,Office Supplies,Binders
+2019-08-30,2019-09-02,1961.06,-147.26,0.0,East,Office Supplies,Binders
+2021-07-03,2021-07-06,355.6,189.76,0.2,West,Technology,Phones
+2019-11-17,2019-11-19,1237.71,493.04,0.1,Central,Office Supplies,Storage
+2021-11-10,2021-11-12,1486.72,287.91,0.2,West,Technology,Accessories
+2020-01-29,2020-01-31,1624.02,406.95,0.0,South,Technology,Phones
+2018-02-05,2018-02-10,404.66,-150.34,0.1,South,Office Supplies,Storage
+2019-04-16,2019-04-20,1166.15,106.93,0.2,West,Office Supplies,Storage
+2019-07-29,2019-08-04,587.35,213.58,0.1,East,Technology,Phones
+2020-12-13,2020-12-16,271.58,165.57,0.0,South,Office Supplies,Paper
+2021-05-04,2021-05-10,122.33,171.95,0.2,Central,Furniture,Bookcases
+2019-01-05,2019-01-09,1434.9,-171.25,0.3,Central,Technology,Phones
+2021-10-01,2021-10-06,384.98,-143.39,0.2,East,Technology,Accessories
+2020-12-17,2020-12-19,329.75,-24.83,0.1,West,Furniture,Chairs
+2020-06-15,2020-06-20,1481.04,188.05,0.1,East,Furniture,Chairs
+2021-01-04,2021-01-06,724.83,330.49,0.0,East,Technology,Copiers
+2020-12-06,2020-12-07,636.6,485.66,0.0,South,Office Supplies,Binders
+2019-03-08,2019-03-13,957.47,-78.76,0.1,East,Office Supplies,Paper
+2019-06-06,2019-06-12,1277.49,-168.29,0.2,West,Technology,Accessories
+2019-03-18,2019-03-19,1087.97,278.77,0.3,South,Office Supplies,Storage
+2019-05-12,2019-05-16,1179.84,458.16,0.3,South,Technology,Accessories
+2019-01-15,2019-01-16,927.34,181.93,0.0,South,Office Supplies,Storage
+2021-12-11,2021-12-13,429.24,-8.23,0.3,Central,Technology,Phones
+2021-06-30,2021-07-03,1244.14,35.59,0.1,South,Office Supplies,Paper
+2020-08-27,2020-08-29,694.44,-17.51,0.2,South,Furniture,Tables
+2021-01-03,2021-01-08,97.59,92.56,0.0,East,Office Supplies,Binders
+2019-04-02,2019-04-05,1981.2,88.83,0.1,East,Office Supplies,Binders
+2021-04-28,2021-05-03,492.42,275.89,0.2,East,Technology,Copiers
+2021-07-20,2021-07-21,1020.4,378.52,0.1,East,Technology,Phones
+2018-06-26,2018-06-30,41.46,433.77,0.3,East,Technology,Copiers
+2020-01-05,2020-01-09,1155.41,242.29,0.0,East,Technology,Accessories
+2020-08-05,2020-08-08,441.2,462.34,0.3,East,Technology,Phones
+2020-12-01,2020-12-03,133.97,184.67,0.0,Central,Technology,Phones
+2018-08-23,2018-08-26,251.79,-99.91,0.1,West,Technology,Phones
+2021-06-07,2021-06-13,1407.92,-149.07,0.1,Central,Furniture,Chairs
+2018-01-29,2018-02-03,481.79,206.91,0.0,East,Office Supplies,Paper
+2019-05-26,2019-05-27,1191.94,45.15,0.3,Central,Office Supplies,Binders
+2020-05-25,2020-05-31,1416.07,-25.89,0.2,Central,Technology,Phones
+2018-06-22,2018-06-27,822.3,200.03,0.3,South,Office Supplies,Storage
+2021-10-16,2021-10-17,1368.46,-33.75,0.0,Central,Furniture,Bookcases
+2020-04-03,2020-04-04,462.72,474.26,0.3,East,Furniture,Chairs
+2020-03-25,2020-03-30,105.93,447.25,0.3,East,Furniture,Chairs
+2022-01-04,2022-01-06,349.11,-48.23,0.2,Central,Technology,Copiers
+2021-07-06,2021-07-07,1832.2,471.09,0.3,South,Furniture,Chairs
+2020-10-28,2020-10-30,392.48,124.59,0.1,South,Office Supplies,Binders
+2018-02-10,2018-02-14,1972.7,288.71,0.0,East,Office Supplies,Binders
+2019-04-06,2019-04-10,556.5,-106.77,0.2,East,Furniture,Chairs
+2020-06-01,2020-06-06,1234.56,92.77,0.3,West,Office Supplies,Paper
+2020-05-26,2020-05-31,72.21,63.52,0.0,West,Office Supplies,Storage
+2020-05-02,2020-05-04,774.16,478.94,0.2,East,Technology,Phones
+2018-04-15,2018-04-18,285.03,-190.43,0.2,West,Furniture,Chairs
+2020-02-10,2020-02-15,1178.6,308.28,0.1,West,Furniture,Chairs
+2021-01-13,2021-01-19,425.99,-23.99,0.0,East,Technology,Phones
+2020-05-30,2020-06-01,729.16,-120.51,0.1,West,Office Supplies,Binders
+2018-04-28,2018-05-01,1049.92,396.53,0.1,South,Office Supplies,Paper
+2020-02-02,2020-02-03,1188.11,136.03,0.2,Central,Furniture,Tables
+2019-08-01,2019-08-04,441.67,-104.54,0.3,West,Furniture,Chairs
+2018-04-08,2018-04-10,796.64,106.23,0.2,West,Office Supplies,Paper
+2020-09-10,2020-09-14,609.96,166.52,0.0,East,Furniture,Tables
+2018-07-03,2018-07-04,994.39,-19.23,0.3,East,Furniture,Tables
+2018-02-22,2018-02-24,670.93,243.38,0.3,Central,Office Supplies,Paper
+2020-01-31,2020-02-03,294.88,248.61,0.3,South,Technology,Copiers
+2021-05-03,2021-05-06,1341.76,-79.38,0.1,Central,Furniture,Bookcases
+2020-10-25,2020-10-27,571.61,-76.09,0.0,West,Technology,Phones
+2018-08-21,2018-08-25,428.54,54.99,0.1,West,Furniture,Chairs
+2021-01-01,2021-01-03,1602.83,239.53,0.2,South,Furniture,Bookcases
+2020-04-10,2020-04-15,25.14,407.81,0.3,East,Office Supplies,Storage
+2019-12-20,2019-12-26,487.51,331.97,0.1,South,Technology,Phones
+2019-10-28,2019-11-03,312.52,-106.82,0.2,Central,Office Supplies,Binders
+2018-12-29,2019-01-02,232.2,113.19,0.2,Central,Technology,Accessories
+2019-04-30,2019-05-04,59.74,25.46,0.2,West,Technology,Phones
+2020-03-22,2020-03-23,1783.24,215.51,0.3,West,Office Supplies,Paper
+2018-04-19,2018-04-21,192.1,175.97,0.1,Central,Technology,Phones
+2019-03-01,2019-03-06,738.9,252.14,0.1,Central,Furniture,Bookcases
+2021-11-01,2021-11-02,34.92,-42.27,0.1,Central,Technology,Phones
+2022-01-09,2022-01-15,1615.61,-161.04,0.0,Central,Office Supplies,Storage
+2019-06-27,2019-07-02,1965.11,-121.57,0.1,South,Technology,Copiers
+2019-10-08,2019-10-14,530.65,-80.38,0.2,West,Technology,Copiers
+2020-04-26,2020-04-29,1151.79,-4.01,0.3,East,Furniture,Tables
+2021-02-15,2021-02-19,862.36,155.33,0.0,South,Office Supplies,Paper
+2018-03-31,2018-04-06,591.49,206.87,0.2,Central,Technology,Phones
+2018-09-16,2018-09-17,751.08,117.99,0.0,Central,Furniture,Bookcases
+2018-01-13,2018-01-15,193.98,-102.82,0.0,East,Office Supplies,Paper
+2020-06-29,2020-07-05,835.45,44.21,0.0,East,Furniture,Bookcases
+2018-11-30,2018-12-05,1467.12,456.84,0.3,Central,Office Supplies,Paper
+2021-08-12,2021-08-18,115.23,347.06,0.2,East,Technology,Phones
+2020-03-08,2020-03-11,345.25,370.2,0.2,West,Furniture,Tables
+2018-05-12,2018-05-13,1756.86,74.71,0.3,South,Office Supplies,Paper
+2020-03-10,2020-03-13,1255.72,177.85,0.2,Central,Technology,Accessories
+2018-05-25,2018-05-26,795.13,172.3,0.0,South,Furniture,Chairs
+2018-07-17,2018-07-23,678.98,311.38,0.1,South,Technology,Copiers
+2021-08-05,2021-08-09,1488.09,201.21,0.0,West,Technology,Copiers
+2020-10-17,2020-10-22,1561.57,-99.81,0.3,West,Furniture,Chairs
+2019-06-01,2019-06-04,1514.18,-127.96,0.0,Central,Office Supplies,Paper
+2018-08-04,2018-08-08,806.63,358.11,0.0,East,Technology,Phones
+2018-05-10,2018-05-13,1289.47,285.76,0.3,West,Technology,Phones
+2018-03-10,2018-03-14,379.56,435.92,0.1,West,Technology,Copiers
+2018-12-12,2018-12-18,1237.6,438.3,0.3,West,Technology,Copiers
+2020-09-19,2020-09-23,1194.07,-128.45,0.3,South,Office Supplies,Binders
+2018-05-07,2018-05-09,1547.07,62.1,0.0,West,Furniture,Chairs
+2022-01-25,2022-01-26,1852.63,115.59,0.1,East,Technology,Phones
+2019-02-24,2019-03-02,1678.23,32.5,0.1,Central,Furniture,Tables
+2019-10-23,2019-10-24,1493.61,-56.09,0.0,East,Technology,Copiers
+2019-07-29,2019-08-02,1084.04,443.9,0.1,Central,Office Supplies,Binders
+2019-02-22,2019-02-25,915.39,-42.78,0.3,Central,Office Supplies,Storage
+2019-10-26,2019-10-27,1006.77,93.25,0.3,East,Technology,Accessories
+2018-03-04,2018-03-07,1271.88,-190.83,0.0,East,Furniture,Chairs
+2021-01-12,2021-01-13,314.35,90.24,0.3,Central,Technology,Phones
+2018-11-23,2018-11-24,633.68,78.12,0.2,Central,Furniture,Chairs
+2018-02-01,2018-02-07,397.56,-174.42,0.1,South,Technology,Accessories
+2020-02-08,2020-02-14,1433.84,169.35,0.1,South,Technology,Accessories
+2021-05-30,2021-06-05,1535.41,-127.91,0.3,East,Furniture,Tables
+2020-03-10,2020-03-12,556.07,250.8,0.3,East,Technology,Copiers
+2022-02-08,2022-02-10,1736.65,85.59,0.0,Central,Technology,Copiers
+2019-03-19,2019-03-24,1198.2,37.49,0.0,Central,Technology,Copiers
+2020-10-03,2020-10-05,1614.52,492.11,0.3,South,Technology,Phones
+2019-03-28,2019-04-01,1342.81,-56.51,0.2,Central,Office Supplies,Storage
+2018-11-26,2018-11-27,431.61,-181.43,0.0,Central,Office Supplies,Storage
+2019-05-29,2019-05-30,1638.54,39.27,0.1,Central,Furniture,Tables
+2019-04-16,2019-04-20,1664.7,41.63,0.3,West,Office Supplies,Storage
+2020-12-12,2020-12-16,454.63,482.18,0.3,South,Furniture,Tables
+2021-03-27,2021-03-30,1791.21,359.9,0.0,West,Furniture,Tables
+2019-06-10,2019-06-11,1092.44,243.43,0.2,East,Technology,Phones
+2021-06-12,2021-06-18,1969.12,167.98,0.0,West,Office Supplies,Paper
+2018-03-16,2018-03-22,1830.31,-117.57,0.3,East,Technology,Phones
+2020-11-06,2020-11-11,1309.81,380.82,0.2,East,Office Supplies,Paper
+2018-01-27,2018-01-28,547.67,312.53,0.1,South,Office Supplies,Paper
+2020-03-31,2020-04-02,1830.54,93.14,0.3,West,Furniture,Chairs
+2018-05-10,2018-05-14,1918.08,-70.94,0.0,South,Office Supplies,Paper
+2018-01-29,2018-02-03,1677.42,106.04,0.3,East,Technology,Accessories
+2020-01-14,2020-01-17,1899.63,77.65,0.3,West,Technology,Copiers
+2021-08-28,2021-08-29,554.42,177.89,0.2,Central,Office Supplies,Binders
+2020-08-15,2020-08-18,1201.75,33.97,0.1,West,Technology,Phones
+2019-12-14,2019-12-15,837.33,293.45,0.3,West,Furniture,Chairs
+2018-05-11,2018-05-13,1602.84,286.29,0.1,West,Furniture,Bookcases
+2020-12-03,2020-12-06,1836.28,-104.23,0.1,East,Office Supplies,Storage
+2018-01-12,2018-01-18,1917.18,330.87,0.2,East,Technology,Phones
+2019-01-09,2019-01-15,1961.54,432.35,0.3,Central,Furniture,Bookcases
+2019-05-04,2019-05-09,1346.44,-169.08,0.3,Central,Technology,Accessories
+2020-09-07,2020-09-13,1832.67,-176.24,0.0,Central,Furniture,Bookcases
+2019-11-19,2019-11-21,855.09,356.74,0.2,West,Furniture,Bookcases
+2019-02-06,2019-02-09,1661.25,-174.09,0.2,South,Technology,Copiers
+2021-01-26,2021-01-29,1398.65,37.91,0.2,Central,Technology,Phones
+2019-05-12,2019-05-16,1585.63,23.13,0.1,East,Technology,Copiers
+2021-02-05,2021-02-11,846.66,123.36,0.1,West,Furniture,Tables
+2021-03-10,2021-03-12,1879.35,359.15,0.2,West,Technology,Copiers
+2019-04-22,2019-04-28,970.15,239.25,0.3,South,Furniture,Tables
+2018-09-23,2018-09-29,847.18,94.95,0.0,East,Technology,Phones
+2018-01-03,2018-01-08,722.15,1.07,0.3,West,Office Supplies,Binders
+2019-03-08,2019-03-09,1822.47,-168.43,0.2,East,Office Supplies,Binders
+2018-03-02,2018-03-07,197.03,92.31,0.3,Central,Furniture,Bookcases
+2020-12-21,2020-12-26,1978.59,320.35,0.3,Central,Office Supplies,Storage
+2021-08-26,2021-08-31,1664.67,-115.76,0.2,West,Furniture,Bookcases
+2020-07-25,2020-07-26,1915.4,378.34,0.0,East,Furniture,Tables
+2019-12-28,2019-12-29,1046.16,218.09,0.0,East,Office Supplies,Storage
+2019-02-23,2019-02-25,992.55,497.44,0.2,South,Technology,Accessories
+2020-02-20,2020-02-25,1083.21,215.06,0.1,East,Technology,Accessories
+2020-08-09,2020-08-12,560.46,133.67,0.2,East,Office Supplies,Storage
+2019-06-05,2019-06-06,1110.7,-139.11,0.3,South,Office Supplies,Paper
+2018-11-24,2018-11-27,1452.37,147.11,0.1,East,Technology,Accessories
+2020-08-30,2020-08-31,141.8,418.03,0.1,East,Furniture,Chairs
+2021-09-08,2021-09-10,1096.68,405.15,0.0,West,Technology,Accessories
+2019-07-25,2019-07-28,337.59,33.81,0.0,East,Technology,Phones
+2018-12-22,2018-12-25,1510.38,-88.98,0.2,East,Furniture,Tables
+2020-11-20,2020-11-22,275.16,34.58,0.1,Central,Office Supplies,Binders
+2018-12-22,2018-12-24,1667.63,155.23,0.2,West,Technology,Accessories
+2021-02-10,2021-02-11,1270.99,-18.14,0.3,South,Furniture,Tables
+2020-10-04,2020-10-10,581.02,-187.1,0.0,South,Furniture,Bookcases
+2021-12-06,2021-12-10,375.4,327.59,0.1,South,Office Supplies,Storage
+2018-07-11,2018-07-12,1546.55,296.0,0.1,East,Office Supplies,Storage
+2021-02-17,2021-02-20,1707.78,493.1,0.2,East,Office Supplies,Paper
+2020-08-05,2020-08-10,779.55,-154.06,0.0,West,Technology,Copiers
+2020-08-04,2020-08-07,1372.92,112.13,0.1,West,Technology,Copiers
+2021-01-27,2021-02-01,1711.34,168.92,0.0,East,Furniture,Chairs
+2020-08-31,2020-09-04,1315.93,-8.72,0.0,West,Technology,Accessories
+2018-10-30,2018-11-04,1284.28,78.32,0.0,East,Furniture,Chairs
+2021-07-04,2021-07-06,1790.32,-39.03,0.0,Central,Technology,Copiers
+2020-03-02,2020-03-06,1134.25,130.07,0.2,South,Furniture,Chairs
+2021-08-25,2021-08-28,1692.67,332.72,0.2,East,Office Supplies,Binders
+2020-06-17,2020-06-21,1597.14,137.07,0.1,Central,Furniture,Tables
+2021-06-13,2021-06-17,872.01,-59.63,0.0,South,Furniture,Tables
+2020-10-10,2020-10-15,552.61,358.29,0.2,South,Technology,Accessories
+2018-03-13,2018-03-18,163.44,74.75,0.1,Central,Furniture,Chairs
+2018-01-11,2018-01-16,1518.98,466.85,0.0,South,Technology,Accessories
+2021-01-16,2021-01-17,499.25,490.66,0.3,Central,Technology,Accessories
+2018-04-02,2018-04-06,705.11,343.06,0.1,South,Office Supplies,Paper
+2018-08-13,2018-08-14,1767.42,-142.24,0.0,South,Furniture,Tables
+2021-01-31,2021-02-02,1955.38,-59.4,0.1,West,Office Supplies,Paper
+2018-04-16,2018-04-20,227.04,245.5,0.2,Central,Technology,Accessories
+2020-02-13,2020-02-14,122.9,178.91,0.1,South,Office Supplies,Binders
+2021-01-12,2021-01-18,1232.27,139.08,0.2,South,Office Supplies,Paper
+2018-01-22,2018-01-24,972.19,-171.47,0.3,West,Office Supplies,Paper
+2020-09-04,2020-09-10,1194.69,255.21,0.0,East,Office Supplies,Storage
+2021-03-16,2021-03-22,687.05,-72.52,0.2,East,Technology,Accessories
+2020-07-02,2020-07-05,472.34,497.43,0.0,Central,Technology,Copiers
+2020-01-25,2020-01-28,456.71,92.88,0.2,East,Technology,Accessories
+2020-05-11,2020-05-16,1459.79,319.89,0.3,East,Technology,Phones
+2020-08-04,2020-08-05,888.46,307.68,0.3,South,Office Supplies,Paper
+2021-12-12,2021-12-16,855.01,-6.22,0.2,West,Office Supplies,Storage
+2021-07-15,2021-07-18,1253.47,242.09,0.2,East,Office Supplies,Binders
+2018-04-10,2018-04-16,375.77,-33.72,0.1,West,Technology,Accessories
+2020-04-16,2020-04-22,994.71,-26.94,0.3,East,Technology,Phones
+2019-05-19,2019-05-20,1331.99,-133.32,0.0,Central,Technology,Accessories
+2018-01-28,2018-01-30,1718.81,-193.68,0.0,South,Furniture,Chairs
+2021-08-19,2021-08-22,1769.75,109.42,0.3,West,Furniture,Bookcases
+2020-04-23,2020-04-29,308.6,114.6,0.3,Central,Furniture,Tables
+2019-07-30,2019-08-05,351.89,-174.33,0.0,Central,Furniture,Chairs
+2018-11-01,2018-11-02,1416.66,112.46,0.2,Central,Furniture,Chairs
+2020-08-14,2020-08-18,554.1,-160.04,0.2,East,Office Supplies,Storage
+2020-10-21,2020-10-24,915.35,453.71,0.0,East,Office Supplies,Binders
+2021-05-14,2021-05-18,313.72,490.64,0.3,Central,Furniture,Bookcases
+2018-08-05,2018-08-07,1946.73,206.08,0.3,Central,Technology,Accessories
+2020-07-07,2020-07-11,1073.85,-111.98,0.1,East,Technology,Accessories
+2020-06-10,2020-06-12,392.93,311.58,0.0,South,Office Supplies,Paper
+2018-03-27,2018-03-29,1330.03,485.04,0.2,West,Office Supplies,Binders
+2021-03-14,2021-03-16,1740.43,199.43,0.3,Central,Office Supplies,Paper
+2020-03-11,2020-03-12,447.04,261.22,0.0,South,Furniture,Tables
+2021-05-28,2021-05-30,1998.84,-166.25,0.0,East,Furniture,Chairs
+2019-11-19,2019-11-24,1569.12,196.91,0.0,Central,Furniture,Chairs
+2021-01-30,2021-02-05,1852.84,106.72,0.1,West,Office Supplies,Binders
+2021-07-26,2021-07-29,1740.42,62.97,0.1,West,Furniture,Chairs
+2019-12-26,2019-12-27,745.59,77.32,0.0,Central,Technology,Phones
+2021-12-11,2021-12-12,1100.46,111.09,0.1,West,Furniture,Chairs
+2020-08-25,2020-08-31,1292.3,331.54,0.0,Central,Technology,Copiers
+2018-11-24,2018-11-26,968.78,-182.05,0.1,East,Furniture,Tables
+2018-10-31,2018-11-05,507.22,133.69,0.2,South,Furniture,Tables
+2019-05-13,2019-05-17,1911.94,-187.24,0.2,Central,Technology,Accessories
+2021-02-14,2021-02-18,1910.23,258.29,0.2,Central,Technology,Copiers
+2019-04-15,2019-04-18,220.81,140.11,0.3,East,Furniture,Chairs
+2020-01-21,2020-01-25,1087.54,17.92,0.3,West,Office Supplies,Storage
+2019-08-12,2019-08-16,1649.88,165.74,0.2,Central,Office Supplies,Paper
+2020-06-27,2020-06-28,1143.28,-20.41,0.3,South,Office Supplies,Storage
+2021-11-09,2021-11-13,105.96,243.21,0.2,East,Office Supplies,Storage
+2021-02-15,2021-02-20,1770.73,-40.34,0.0,Central,Technology,Accessories
+2019-11-13,2019-11-14,489.0,346.37,0.1,South,Office Supplies,Paper
+2021-05-10,2021-05-11,209.16,236.7,0.0,Central,Technology,Copiers
+2019-11-18,2019-11-19,1479.01,403.96,0.2,East,Office Supplies,Binders
+2021-12-26,2021-12-31,1291.1,224.97,0.3,Central,Furniture,Tables
+2019-08-13,2019-08-18,1197.06,147.74,0.1,South,Office Supplies,Binders
+2021-10-29,2021-11-03,1440.84,284.71,0.2,South,Technology,Copiers
+2021-05-26,2021-06-01,1165.21,-8.09,0.1,South,Office Supplies,Storage
+2018-03-14,2018-03-15,468.78,48.5,0.3,East,Furniture,Chairs
+2020-08-13,2020-08-18,158.46,248.12,0.3,West,Furniture,Tables
+2020-10-10,2020-10-14,662.18,33.1,0.1,West,Office Supplies,Storage
+2019-09-06,2019-09-07,1991.05,112.45,0.3,South,Technology,Accessories
+2019-03-29,2019-04-03,1277.22,328.39,0.2,South,Office Supplies,Paper
+2019-11-01,2019-11-02,1647.18,-199.13,0.3,South,Office Supplies,Paper
+2018-08-25,2018-08-29,1948.85,-185.98,0.3,South,Technology,Accessories
+2018-10-13,2018-10-18,204.0,-20.07,0.3,Central,Furniture,Chairs
+2020-02-23,2020-02-27,1568.42,296.12,0.1,South,Furniture,Chairs
+2018-04-24,2018-04-29,733.07,-138.65,0.2,East,Furniture,Bookcases
+2020-04-14,2020-04-18,573.81,459.67,0.1,Central,Furniture,Chairs
+2019-02-10,2019-02-13,1157.68,196.6,0.3,West,Office Supplies,Storage
+2018-02-11,2018-02-17,1638.55,66.44,0.3,West,Technology,Phones
+2018-05-14,2018-05-17,1584.26,13.28,0.0,Central,Office Supplies,Paper
+2019-08-01,2019-08-04,1396.0,42.27,0.3,West,Furniture,Bookcases
+2020-03-03,2020-03-08,1726.79,445.93,0.1,East,Office Supplies,Binders
+2018-08-26,2018-08-31,648.71,466.96,0.1,East,Office Supplies,Paper
+2019-04-27,2019-05-02,71.11,-105.38,0.3,East,Furniture,Chairs
+2020-04-25,2020-04-29,890.23,-126.03,0.1,South,Furniture,Bookcases
+2018-09-11,2018-09-13,1307.4,-93.58,0.2,East,Furniture,Bookcases
+2020-02-17,2020-02-18,135.16,496.41,0.0,Central,Technology,Accessories
+2020-09-09,2020-09-12,357.92,-147.76,0.3,West,Technology,Phones
+2018-09-20,2018-09-24,1243.74,243.23,0.3,East,Office Supplies,Storage
+2021-11-04,2021-11-08,364.03,259.01,0.1,Central,Furniture,Bookcases
+2020-02-07,2020-02-12,721.39,167.85,0.1,West,Office Supplies,Storage
+2019-08-21,2019-08-26,41.84,91.31,0.2,East,Technology,Phones
+2019-10-23,2019-10-25,1368.33,-67.21,0.0,East,Office Supplies,Paper
+2018-08-30,2018-09-04,1952.23,361.08,0.0,South,Furniture,Chairs
+2019-05-12,2019-05-16,1299.26,149.53,0.3,Central,Furniture,Bookcases
+2019-05-25,2019-05-29,1732.03,-29.57,0.1,South,Furniture,Tables
+2021-12-30,2022-01-04,929.7,349.51,0.0,East,Technology,Phones
+2021-02-17,2021-02-18,1886.81,366.22,0.3,East,Furniture,Chairs
+2018-08-30,2018-09-01,521.06,346.82,0.3,Central,Furniture,Tables
+2020-02-15,2020-02-18,911.25,-41.12,0.0,South,Technology,Accessories
+2019-04-12,2019-04-17,1480.12,158.56,0.0,South,Technology,Phones
+2018-03-28,2018-03-31,1324.89,361.49,0.2,South,Furniture,Chairs
+2018-05-28,2018-06-02,787.44,123.36,0.3,Central,Furniture,Chairs
+2021-11-15,2021-11-18,386.69,-78.12,0.0,East,Technology,Copiers
+2021-10-07,2021-10-09,61.47,-142.48,0.3,East,Office Supplies,Paper
+2018-11-25,2018-11-27,1341.35,-192.7,0.3,West,Technology,Phones
+2018-06-18,2018-06-19,1070.0,-170.63,0.1,West,Office Supplies,Binders
+2020-02-09,2020-02-15,982.31,444.21,0.3,South,Furniture,Bookcases
+2019-06-06,2019-06-07,1857.61,-42.77,0.0,South,Office Supplies,Storage
+2018-05-04,2018-05-06,1233.62,460.15,0.1,South,Technology,Accessories
+2019-11-17,2019-11-18,1298.71,0.13,0.3,West,Furniture,Bookcases
+2019-05-12,2019-05-16,1839.47,-23.43,0.0,West,Technology,Copiers
+2018-10-29,2018-11-04,1557.37,259.31,0.2,South,Furniture,Tables
+2018-08-23,2018-08-24,1876.03,-169.78,0.1,West,Office Supplies,Paper
+2019-04-08,2019-04-12,1639.21,-50.54,0.2,Central,Furniture,Chairs
+2019-02-25,2019-03-02,1491.98,228.36,0.1,Central,Furniture,Tables
+2020-11-19,2020-11-23,1279.86,332.79,0.2,South,Technology,Phones
+2018-05-09,2018-05-13,1458.39,494.27,0.3,Central,Office Supplies,Paper
+2019-04-18,2019-04-20,1489.85,370.58,0.2,Central,Office Supplies,Paper
+2018-04-22,2018-04-27,1086.62,166.91,0.1,West,Office Supplies,Binders
+2020-11-01,2020-11-02,41.84,324.68,0.0,East,Office Supplies,Paper
+2020-10-11,2020-10-17,1755.77,497.43,0.3,Central,Technology,Copiers
+2019-06-20,2019-06-26,1194.23,74.07,0.0,West,Furniture,Tables
+2018-07-21,2018-07-27,350.43,-73.08,0.0,South,Technology,Phones
+2019-08-06,2019-08-10,1030.02,306.38,0.0,South,Furniture,Bookcases
+2019-05-15,2019-05-19,124.55,140.62,0.1,West,Office Supplies,Storage
+2021-04-26,2021-04-30,657.77,245.54,0.2,West,Technology,Copiers
+2021-08-30,2021-09-05,435.49,377.59,0.2,South,Furniture,Tables
+2018-07-02,2018-07-03,879.36,-137.98,0.3,East,Furniture,Tables
+2021-08-19,2021-08-22,1472.56,9.61,0.0,East,Technology,Copiers
+2019-02-03,2019-02-09,1982.43,323.05,0.2,East,Office Supplies,Storage
+2019-05-15,2019-05-20,1959.7,-84.29,0.2,East,Office Supplies,Binders
+2019-12-11,2019-12-12,1860.64,347.81,0.2,West,Office Supplies,Paper
+2020-07-10,2020-07-13,766.29,123.21,0.3,East,Technology,Accessories
+2019-12-05,2019-12-10,1417.92,241.82,0.1,Central,Furniture,Tables
+2020-07-19,2020-07-20,1564.82,-195.08,0.0,West,Technology,Accessories
+2020-09-11,2020-09-15,46.54,-2.08,0.1,West,Office Supplies,Binders
+2018-06-12,2018-06-16,1578.51,482.38,0.3,West,Office Supplies,Storage
+2018-07-24,2018-07-30,149.42,141.3,0.3,Central,Technology,Accessories
+2020-05-24,2020-05-25,704.92,20.63,0.2,Central,Office Supplies,Paper
+2021-11-23,2021-11-25,1470.25,183.82,0.3,Central,Office Supplies,Storage
+2021-12-20,2021-12-22,849.21,-17.89,0.0,East,Technology,Phones
+2021-01-10,2021-01-15,1315.27,-61.33,0.3,East,Office Supplies,Binders
+2020-05-02,2020-05-06,712.02,-120.13,0.1,East,Technology,Copiers
+2020-10-13,2020-10-19,1131.22,166.37,0.0,East,Technology,Accessories
+2018-02-12,2018-02-13,1587.57,184.19,0.1,West,Office Supplies,Paper
+2019-09-02,2019-09-03,868.69,-101.33,0.1,South,Office Supplies,Paper
+2020-04-21,2020-04-23,1726.73,122.11,0.2,West,Furniture,Tables
+2019-07-25,2019-07-27,1956.56,355.79,0.0,South,Technology,Accessories
+2019-06-16,2019-06-18,673.83,329.73,0.1,Central,Technology,Phones
+2019-09-20,2019-09-24,525.88,462.65,0.3,West,Furniture,Bookcases
+2019-03-23,2019-03-25,149.11,124.75,0.3,South,Office Supplies,Binders
+2020-10-08,2020-10-11,228.84,259.75,0.0,Central,Furniture,Tables
+2019-12-10,2019-12-13,407.31,-69.29,0.3,South,Office Supplies,Storage
+2020-12-31,2021-01-01,804.02,440.56,0.3,West,Furniture,Chairs
+2021-07-15,2021-07-17,647.19,400.03,0.2,Central,Office Supplies,Paper
+2018-02-09,2018-02-15,298.61,-58.59,0.3,South,Office Supplies,Storage
+2019-09-05,2019-09-09,1601.21,477.43,0.2,South,Furniture,Bookcases
+2020-03-24,2020-03-25,847.17,488.88,0.0,West,Furniture,Bookcases
+2021-07-07,2021-07-11,1766.22,99.24,0.2,South,Furniture,Tables
+2018-05-11,2018-05-12,78.14,376.07,0.1,West,Technology,Phones
+2018-08-15,2018-08-20,686.94,7.54,0.1,West,Office Supplies,Binders
+2021-11-01,2021-11-04,1804.57,256.17,0.0,East,Office Supplies,Storage
+2021-02-28,2021-03-04,683.71,-78.37,0.0,South,Office Supplies,Paper
+2021-12-11,2021-12-16,851.84,433.75,0.2,Central,Office Supplies,Paper
+2021-01-03,2021-01-04,882.3,204.07,0.0,East,Office Supplies,Paper
+2020-07-19,2020-07-20,270.0,273.32,0.1,Central,Technology,Accessories
+2019-03-30,2019-03-31,1317.46,494.22,0.2,Central,Technology,Copiers
+2019-05-31,2019-06-02,1035.06,13.72,0.2,East,Technology,Copiers
+2020-08-06,2020-08-12,1523.31,432.53,0.0,Central,Technology,Phones
+2020-04-24,2020-04-26,1308.52,411.96,0.2,Central,Furniture,Bookcases
+2021-10-09,2021-10-15,931.51,405.19,0.3,West,Technology,Copiers
+2019-08-19,2019-08-20,103.21,317.93,0.1,West,Technology,Copiers
+2018-03-24,2018-03-30,1823.32,327.77,0.0,South,Technology,Accessories
+2020-12-22,2020-12-23,623.41,380.58,0.3,Central,Furniture,Bookcases
+2021-02-17,2021-02-23,258.09,-152.16,0.0,West,Technology,Accessories
+2021-10-31,2021-11-04,616.51,218.85,0.2,East,Furniture,Chairs
+2018-08-10,2018-08-11,115.32,432.03,0.3,West,Technology,Accessories
+2021-02-24,2021-03-01,1679.54,-0.3,0.3,Central,Furniture,Chairs
+2022-02-01,2022-02-06,146.01,381.96,0.2,South,Technology,Accessories
+2021-05-09,2021-05-14,84.64,407.99,0.1,South,Furniture,Chairs
+2018-12-09,2018-12-13,1823.14,125.1,0.2,East,Furniture,Chairs
+2020-03-30,2020-04-04,357.75,463.68,0.1,South,Technology,Accessories
+2018-06-28,2018-07-02,1359.32,-107.81,0.3,West,Furniture,Chairs
+2020-05-03,2020-05-07,1902.05,220.46,0.2,East,Furniture,Bookcases
+2021-07-09,2021-07-15,523.7,53.3,0.3,West,Furniture,Bookcases
+2022-01-30,2022-02-03,949.89,115.33,0.0,East,Office Supplies,Storage
+2021-08-07,2021-08-12,959.09,213.61,0.0,West,Technology,Accessories
+2020-05-30,2020-06-05,1669.97,390.75,0.0,West,Furniture,Tables
+2019-12-05,2019-12-11,805.66,-168.93,0.0,East,Technology,Phones
+2019-07-07,2019-07-08,245.4,41.66,0.2,Central,Furniture,Chairs
+2019-02-01,2019-02-04,108.81,115.42,0.2,West,Furniture,Bookcases
+2021-04-06,2021-04-10,1465.12,417.58,0.0,East,Furniture,Chairs
+2021-06-17,2021-06-18,1651.1,468.54,0.1,East,Furniture,Chairs
+2018-06-23,2018-06-29,530.06,-158.33,0.2,South,Furniture,Bookcases
+2021-09-09,2021-09-15,1604.7,263.87,0.0,Central,Office Supplies,Paper
+2018-11-28,2018-11-30,655.74,324.9,0.1,Central,Technology,Phones
+2018-07-21,2018-07-23,1778.32,219.08,0.1,West,Furniture,Chairs
+2019-12-14,2019-12-15,325.56,-79.71,0.1,Central,Technology,Accessories
+2019-01-22,2019-01-28,301.43,-191.81,0.1,South,Furniture,Tables
+2021-08-27,2021-09-01,810.75,437.09,0.1,East,Technology,Copiers
+2020-07-09,2020-07-10,153.42,71.17,0.2,West,Technology,Copiers
+2019-01-10,2019-01-11,626.5,352.29,0.3,South,Technology,Phones
+2018-07-14,2018-07-18,1166.95,331.55,0.2,South,Office Supplies,Storage
+2021-02-15,2021-02-19,798.09,168.07,0.1,South,Technology,Accessories
+2021-05-04,2021-05-09,1782.39,42.11,0.3,Central,Furniture,Bookcases
+2022-01-07,2022-01-09,1281.07,38.42,0.2,Central,Furniture,Tables
+2020-03-27,2020-03-28,1360.7,224.05,0.1,South,Office Supplies,Storage
+2020-11-20,2020-11-24,351.37,480.42,0.1,South,Office Supplies,Binders
+2018-03-16,2018-03-21,780.73,-172.7,0.1,Central,Technology,Copiers
+2018-09-19,2018-09-22,311.18,141.5,0.1,East,Technology,Accessories
+2018-06-19,2018-06-23,641.65,421.88,0.3,West,Office Supplies,Binders
+2020-03-07,2020-03-12,1221.62,-93.89,0.0,East,Furniture,Chairs
+2021-04-03,2021-04-04,1116.35,179.19,0.1,East,Office Supplies,Binders
+2020-08-04,2020-08-07,618.62,-18.47,0.2,West,Technology,Copiers
+2020-07-30,2020-08-03,485.37,381.48,0.3,Central,Furniture,Chairs
+2021-07-27,2021-08-01,899.21,238.36,0.2,South,Furniture,Bookcases
+2018-09-30,2018-10-03,1763.02,236.38,0.0,South,Technology,Phones
+2018-06-14,2018-06-19,313.01,396.79,0.0,South,Office Supplies,Storage
+2018-03-05,2018-03-08,1820.72,305.5,0.0,Central,Office Supplies,Storage
+2019-01-30,2019-02-03,134.33,276.53,0.0,West,Office Supplies,Binders
+2020-06-01,2020-06-04,1035.55,-134.43,0.3,South,Office Supplies,Paper
+2019-11-26,2019-11-28,993.01,165.71,0.1,South,Office Supplies,Storage
+2019-12-16,2019-12-17,737.29,308.0,0.0,West,Technology,Copiers
+2019-08-27,2019-08-30,1212.19,213.98,0.2,East,Technology,Accessories
+2021-09-14,2021-09-18,26.27,248.14,0.0,South,Technology,Copiers
+2021-09-08,2021-09-11,80.96,480.07,0.0,Central,Technology,Copiers
+2019-04-25,2019-05-01,1381.69,305.89,0.1,West,Technology,Accessories
+2018-10-04,2018-10-08,1612.79,-4.87,0.3,West,Office Supplies,Paper
+2021-08-19,2021-08-22,1995.69,273.77,0.0,South,Furniture,Tables
+2019-10-09,2019-10-12,1480.98,383.9,0.0,Central,Technology,Accessories
+2019-10-10,2019-10-15,1647.41,366.43,0.0,South,Furniture,Chairs
+2019-12-04,2019-12-05,1451.84,-3.77,0.3,West,Technology,Accessories
+2021-01-03,2021-01-06,1107.28,242.46,0.0,East,Technology,Accessories
+2018-03-24,2018-03-27,1740.51,277.22,0.0,Central,Office Supplies,Binders
+2021-11-04,2021-11-10,119.45,-148.97,0.0,South,Office Supplies,Paper
+2019-05-23,2019-05-25,576.39,362.44,0.1,South,Technology,Copiers
+2020-11-16,2020-11-22,656.56,133.51,0.0,East,Office Supplies,Storage
+2019-03-13,2019-03-18,1214.92,50.47,0.0,East,Furniture,Tables
+2018-12-03,2018-12-09,918.81,375.0,0.1,South,Office Supplies,Storage
+2021-04-16,2021-04-20,484.61,12.24,0.2,West,Office Supplies,Paper
+2018-09-17,2018-09-22,1835.25,304.46,0.3,Central,Office Supplies,Storage
+2021-08-06,2021-08-08,1651.08,305.21,0.0,South,Technology,Accessories
+2022-01-04,2022-01-05,1032.04,-167.2,0.3,West,Furniture,Bookcases
+2021-09-28,2021-09-30,944.6,38.26,0.3,East,Office Supplies,Binders
+2019-09-25,2019-09-26,277.26,195.49,0.1,South,Furniture,Bookcases
+2020-03-29,2020-04-03,856.32,64.12,0.3,South,Office Supplies,Storage
+2019-02-05,2019-02-07,103.74,195.24,0.3,Central,Technology,Phones
+2020-06-24,2020-06-29,1431.83,266.47,0.0,South,Furniture,Bookcases
+2022-01-15,2022-01-16,610.14,-126.24,0.2,Central,Technology,Phones
+2020-07-01,2020-07-06,1007.17,69.58,0.3,East,Furniture,Tables
+2018-08-15,2018-08-19,25.7,401.27,0.0,West,Technology,Copiers
+2021-01-28,2021-01-30,439.75,260.15,0.2,West,Furniture,Chairs
+2021-01-28,2021-02-02,1512.97,-174.84,0.0,South,Office Supplies,Binders
+2020-10-23,2020-10-27,1949.69,-163.46,0.3,South,Technology,Accessories
+2020-12-24,2020-12-28,188.98,-169.9,0.0,East,Office Supplies,Paper
+2018-02-23,2018-02-25,1096.74,-130.09,0.1,West,Furniture,Tables
+2021-01-30,2021-02-01,58.27,-112.94,0.1,Central,Furniture,Chairs
+2018-04-21,2018-04-27,1071.26,216.59,0.3,East,Furniture,Bookcases
+2020-01-10,2020-01-12,1047.68,274.28,0.3,Central,Technology,Phones
+2018-04-14,2018-04-18,1952.51,-112.11,0.0,West,Technology,Phones
+2020-01-15,2020-01-17,379.84,104.86,0.3,East,Technology,Copiers
+2018-02-24,2018-02-26,462.06,249.3,0.3,South,Furniture,Chairs
+2019-04-29,2019-05-04,1948.9,392.94,0.0,South,Technology,Phones
+2020-09-09,2020-09-10,596.47,-55.03,0.2,South,Technology,Phones
+2019-05-04,2019-05-09,508.28,138.85,0.2,South,Technology,Phones
+2019-05-31,2019-06-02,1980.61,-32.59,0.3,South,Technology,Accessories
+2021-03-12,2021-03-16,1558.32,-56.51,0.1,South,Office Supplies,Storage
+2022-01-04,2022-01-06,1697.44,20.6,0.2,Central,Technology,Accessories
+2019-04-01,2019-04-05,788.57,271.89,0.2,East,Furniture,Chairs
+2019-07-18,2019-07-24,595.2,128.99,0.2,Central,Furniture,Bookcases
+2021-06-19,2021-06-21,311.66,-194.51,0.3,East,Furniture,Tables
+2020-08-03,2020-08-09,1068.73,-30.67,0.0,West,Technology,Accessories
+2019-03-29,2019-04-04,563.91,364.88,0.1,West,Furniture,Tables
+2021-05-31,2021-06-06,1130.53,404.77,0.3,South,Office Supplies,Paper
+2019-09-12,2019-09-13,291.26,496.49,0.1,Central,Furniture,Bookcases
+2018-09-29,2018-10-03,1903.83,496.37,0.3,Central,Technology,Accessories
+2020-10-13,2020-10-17,533.89,105.9,0.2,Central,Office Supplies,Paper
+2020-06-04,2020-06-06,1962.73,-66.92,0.2,East,Technology,Accessories
+2021-10-09,2021-10-10,1921.07,165.02,0.1,West,Technology,Phones
+2018-12-28,2019-01-03,1442.3,-26.86,0.0,Central,Technology,Phones
+2018-07-06,2018-07-10,1138.87,340.14,0.1,South,Technology,Phones
