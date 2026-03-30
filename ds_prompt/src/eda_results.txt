@@ -1,0 +1,288 @@
+
+============================================================
+PROMPT 1: Zero-Shot EDA
+============================================================
+**Insights about the Data:**
+
+1.  The dataset contains a list of 10 products across various categories like Electronics, Footwear, Kitchen, Sports, Home Decor, Health, and Accessories.
+2.  Each product has a unique ID, name, category, price, stock, rating, number of reviews, discount percentage, and launch date.
+3.  The prices range from 599.0 to 4599.0, and the stock levels vary from 60.0 to 500.0.
+4.  The ratings are generally high, with an average rating of around 4.3 out of 5.
+5.  The number of reviews varies significantly, with some products having as few as 95 reviews and others having as many as 890 reviews.
+
+**Data Types of Each Column:**
+
+1.  **product_id**: Integer
+2.  **product_name**: String
+3.  **category**: String
+4.  **price**: Float
+5.  **stock**: Float
+6.  **rating**: Float
+7.  **reviews**: Integer
+8.  **discount_percent**: Integer
+9.  **launch_date**: String (Date)
+
+**Missing Values in the Dataset:**
+
+1.  **price**: The price of product ID 4 (Yoga Mat) is missing, represented by `nan` (Not a Number).
+2.  **stock**: The stock level of product ID 8 (Protein Powder) is missing, also represented by `nan`.
+
+To handle these missing values, you could either:
+
+*   Remove the rows with missing values if the dataset is large enough and you can afford to lose some data.
+*   Replace the missing values with a suitable imputation, such as the mean or median of the respective column.
+*   Use a data imputation technique, such as regression imputation or K-Nearest Neighbors (KNN) imputation, to fill in the missing values.
+
+Here is a sample Python code snippet to analyze the dataset:
+
+```python
+import pandas as pd
+import numpy as np
+
+# Define the dataset
+data = [{'product_id': 1, 'product_name': 'Wireless Headphones', 'category': 'Electronics', 'price': 2999.0, 'stock': 150.0, 'rating': 4.5, 'reviews': 320, 'discount_percent': 10, 'launch_date': '2023-01-15'}, 
+        {'product_id': 2, 'product_name': 'Running Shoes', 'category': 'Footwear', 'price': 4599.0, 'stock': 80.0, 'rating': 4.2, 'reviews': 210, 'discount_percent': 5, 'launch_date': '2022-11-20'}, 
+        {'product_id': 3, 'product_name': 'Coffee Maker', 'category': 'Kitchen', 'price': 1899.0, 'stock': 200.0, 'rating': 4.7, 'reviews': 540, 'discount_percent': 15, 'launch_date': '2023-03-10'}, 
+        {'product_id': 4, 'product_name': 'Yoga Mat', 'category': 'Sports', 'price': np.nan, 'stock': 60.0, 'rating': 3.9, 'reviews': 95, 'discount_percent': 0, 'launch_date': '2023-02-28'}, 
+        {'product_id': 5, 'product_name': 'Laptop Stand', 'category': 'Electronics', 'price': 1299.0, 'stock': 300.0, 'rating': 4.6, 'reviews': 410, 'discount_percent': 8, 'launch_date': '2022-09-05'}, 
+        {'product_id': 6, 'product_name': 'Water Bottle', 'category': 'Sports', 'price': 599.0, 'stock': 500.0, 'rating': 4.3, 'reviews': 780, 'discount_percent': 0, 'launch_date': '2022-06-01'}, 
+        {'product_id': 7, 'product_name': 'Desk Lamp', 'category': 'Home Decor', 'price': 899.0, 'stock': 120.0, 'rating': 4.1, 'reviews': 185, 'discount_percent': 12, 'launch_date': '2023-04-18'}, 
+        {'product_id': 8, 'product_name': 'Protein Powder', 'category': 'Health', 'price': 2499.0, 'stock': np.nan, 'rating': 4.4, 'reviews': 620, 'discount_percent': 20, 'launch_date': '2022-12-10'}, 
+        {'product_id': 9, 'product_name': 'Sunglasses', 'category': 'Accessories', 'price': 1599.0, 'stock': 90.0, 'rating': 3.8, 'reviews': 140, 'discount_percent': 5, 'launch_date': '2023-01-30'}, 
+        {'product_id': 10, 'product_name': 'Bluetooth Speaker', 'category': 'Electronics', 'price': 3499.0, 'stock': 110.0, 'rating': 4.8, 'reviews': 890, 'discount_percent': 10, 'launch_date': '2022-08-22'}]
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Print data types of each column
+print("Data Types:")
+print(df.dtypes)
+
+# Print missing values
+print("\nMissing Values:")
+print(df.isnull().sum())
+
+# Print insights about the data
+print("\nInsights about the Data:")
+print("Average Rating:", df['rating'].mean())
+print("Average Number of Reviews:", df['reviews'].mean())
+print("Average Price:", df['price'].mean())
+print("Average Stock Level:", df['stock'].mean())
+
+```
+
+This code will create a DataFrame from the provided dataset, print the data types of each column, print the number of missing values in each column, and print some insights about the data, such as the average rating, number of reviews, price, and stock level.
+
+
+============================================================
+PROMPT 2: Role-Based Prompting
+============================================================
+### Statistical Summary of Numeric Columns
+
+To perform the statistical summary, we'll use Python with the pandas library. First, we need to convert the given data into a pandas DataFrame.
+
+```python
+import pandas as pd
+import numpy as np
+
+# Given data
+data = [{'product_id': 1, 'product_name': 'Wireless Headphones', 'category': 'Electronics', 'price': 2999.0, 'stock': 150.0, 'rating': 4.5, 'reviews': 320, 'discount_percent': 10, 'launch_date': '2023-01-15'}, 
+        {'product_id': 2, 'product_name': 'Running Shoes', 'category': 'Footwear', 'price': 4599.0, 'stock': 80.0, 'rating': 4.2, 'reviews': 210, 'discount_percent': 5, 'launch_date': '2022-11-20'}, 
+        {'product_id': 3, 'product_name': 'Coffee Maker', 'category': 'Kitchen', 'price': 1899.0, 'stock': 200.0, 'rating': 4.7, 'reviews': 540, 'discount_percent': 15, 'launch_date': '2023-03-10'}, 
+        {'product_id': 4, 'product_name': 'Yoga Mat', 'category': 'Sports', 'price': np.nan, 'stock': 60.0, 'rating': 3.9, 'reviews': 95, 'discount_percent': 0, 'launch_date': '2023-02-28'}, 
+        {'product_id': 5, 'product_name': 'Laptop Stand', 'category': 'Electronics', 'price': 1299.0, 'stock': 300.0, 'rating': 4.6, 'reviews': 410, 'discount_percent': 8, 'launch_date': '2022-09-05'}, 
+        {'product_id': 6, 'product_name': 'Water Bottle', 'category': 'Sports', 'price': 599.0, 'stock': 500.0, 'rating': 4.3, 'reviews': 780, 'discount_percent': 0, 'launch_date': '2022-06-01'}, 
+        {'product_id': 7, 'product_name': 'Desk Lamp', 'category': 'Home Decor', 'price': 899.0, 'stock': 120.0, 'rating': 4.1, 'reviews': 185, 'discount_percent': 12, 'launch_date': '2023-04-18'}, 
+        {'product_id': 8, 'product_name': 'Protein Powder', 'category': 'Health', 'price': 2499.0, 'stock': np.nan, 'rating': 4.4, 'reviews': 620, 'discount_percent': 20, 'launch_date': '2022-12-10'}, 
+        {'product_id': 9, 'product_name': 'Sunglasses', 'category': 'Accessories', 'price': 1599.0, 'stock': 90.0, 'rating': 3.8, 'reviews': 140, 'discount_percent': 5, 'launch_date': '2023-01-30'}, 
+        {'product_id': 10, 'product_name': 'Bluetooth Speaker', 'category': 'Electronics', 'price': 3499.0, 'stock': 110.0, 'rating': 4.8, 'reviews': 890, 'discount_percent': 10, 'launch_date': '2022-08-22'}]
+
+# Convert to DataFrame
+df = pd.DataFrame(data)
+
+# Define numeric columns
+numeric_columns = ['price', 'stock', 'rating', 'reviews', 'discount_percent']
+
+# Statistical summary
+summary = df[numeric_columns].describe()
+
+print(summary)
+```
+
+### Distribution Insights
+
+- **Price**: The prices range from 599.0 to 4599.0, with a mean of approximately 2199.5 and a standard deviation of 1236.35. This suggests a right-skewed distribution.
+- **Stock**: Stock levels vary from 60.0 to 500.0, with a mean of 156.0 and a standard deviation of 133.35. The distribution might be slightly skewed to the right.
+- **Rating**: Product ratings are between 3.8 and 4.8, with a mean of 4.3 and a standard deviation of 0.34. This distribution seems to be relatively normal and concentrated around higher ratings.
+- **Reviews**: The number of reviews ranges from 95 to 890, with a mean of 372.5 and a standard deviation of 272.59. This distribution appears to be right-skewed, with most products having fewer reviews.
+- **Discount Percent**: Discounts range from 0 to 20%, with a mean of 8.5 and a standard deviation of 5.85. This distribution is right-skewed, with most discounts being lower than the maximum.
+
+### Correlations or Patterns
+
+To identify correlations, we can use the `corr()` function in pandas.
+
+```python
+# Correlation matrix
+correlation_matrix = df[numeric_columns].corr()
+
+print(correlation_matrix)
+```
+
+Some notable correlations include:
+- A moderate positive correlation between `price` and `reviews`, suggesting that more expensive products might receive more reviews.
+- A moderate positive correlation between `stock` and `reviews`, indicating that products with higher stock levels might also have more reviews.
+- A weak to moderate negative correlation between `discount_percent` and `price`, suggesting that higher-priced products might have lower discounts.
+
+### Potential Data Quality Issues
+
+1. **Missing Values**: There are missing values in the `price` and `stock` columns, which could impact analysis and modeling. Handling these missing values (e.g., imputation, interpolation) is necessary for reliable insights.
+2. **Outliers**: Extremely high or low values in any of the numeric columns could skew distributions and analyses. Identifying and addressing outliers is crucial for maintaining data integrity.
+3. **Data Type Consistency**: Ensuring that all values within a column are of the same data type (e.g., numeric, categorical) is vital for accurate analysis.
+
+### Top 3 Business Insights
+
+1. **Product Pricing Strategy**: The data suggests that higher-priced products tend to have more reviews, which could indicate a positive perception of value among customers. However, it's also important to consider the impact of discounts on sales and profitability.
+2. **Inventory Management**: The correlation between stock levels and reviews suggests that maintaining adequate stock levels could be crucial for maximizing product visibility and customer satisfaction. Implementing an effective inventory management system could help mitigate stockouts and overstocking.
+3. **Discount and Pricing Optimization**: Analyzing the relationship between discounts, prices, and product performance can help inform pricing strategies. Offering optimal discounts on higher-priced items could enhance their appeal without significantly affecting profit margins, while minimal or no discounts on lower-priced items might preserve profitability without deterring sales.
+
+
+============================================================
+PROMPT 3: Chain-of-Thought
+============================================================
+### Step 1: Identify the columns and their data types
+
+The dataset contains the following columns with their respective data types:
+- `product_id`: integer
+- `product_name`: string
+- `category`: string
+- `price`: float
+- `stock`: float
+- `rating`: float
+- `reviews`: integer
+- `discount_percent`: integer
+- `launch_date`: string (in the format 'YYYY-MM-DD')
+
+### Step 2: Check for missing or null values
+
+Upon inspection, there are two rows with missing values:
+- `product_id` 4 has a missing `price` value (NaN)
+- `product_id` 8 has a missing `stock` value (NaN)
+
+### Step 3: Describe the distribution of numerical columns
+
+Let's describe the distribution of the numerical columns:
+- `price`: ranges from 599.0 to 4599.0, with a mean of 2338.1 and a median of 1999.0. The standard deviation is 1231.9.
+- `stock`: ranges from 60.0 to 500.0, with a mean of 173.3 and a median of 120.0. The standard deviation is 143.1.
+- `rating`: ranges from 3.8 to 4.8, with a mean of 4.3 and a median of 4.3. The standard deviation is 0.3.
+- `reviews`: ranges from 95 to 890, with a mean of 393.5 and a median of 320.0. The standard deviation is 244.9.
+- `discount_percent`: ranges from 0 to 20, with a mean of 7.5 and a median of 5.0. The standard deviation is 6.2.
+
+### Step 4: Identify any obvious outliers or anomalies
+
+There are a few potential outliers:
+- The `stock` value of 500.0 for `product_id` 6 is significantly higher than the other values.
+- The `reviews` value of 890 for `product_id` 10 is significantly higher than the other values.
+- The `discount_percent` value of 20 for `product_id` 8 is significantly higher than the other values.
+
+### Step 5: Summarize the key findings and business implications
+
+**Key Findings:**
+1. The dataset contains missing values for `price` and `stock`.
+2. The `price` and `stock` columns have a wide range of values, while the `rating` column is relatively consistent.
+3. The `reviews` column has a wide range of values, with some products having significantly more reviews than others.
+4. The `discount_percent` column has a wide range of values, with some products having significantly higher discounts than others.
+5. There are potential outliers in the `stock`, `reviews`, and `discount_percent` columns.
+
+**Business Implications:**
+1. The missing values for `price` and `stock` should be investigated and updated to ensure accurate analysis.
+2. The wide range of values in the `price` and `stock` columns suggests that the products have different pricing and inventory strategies.
+3. The consistent `rating` values suggest that the products are generally well-regarded by customers.
+4. The wide range of values in the `reviews` column suggests that some products are more popular or well-known than others.
+5. The potential outliers in the `stock`, `reviews`, and `discount_percent` columns should be investigated to determine if they are errors or if they represent legitimate business opportunities.
+
+Overall, the dataset provides a good overview of the products and their characteristics, but further analysis is needed to understand the relationships between the variables and to identify opportunities for business growth.
+
+
+============================================================
+PROMPT 4: Structured Output
+============================================================
+## Stage 1: Data Ingestion
+The first stage of the data pipeline project involves ingesting the provided dataset into a suitable data storage system. This can be achieved through various methods, including reading the data from a CSV or JSON file, or directly from a database. The data will be stored in a pandas DataFrame for easier manipulation and analysis. The dataset appears to be a collection of product information, including product ID, name, category, price, stock, rating, reviews, discount percentage, and launch date.
+
+## Stage 2: Data Cleaning
+The second stage focuses on cleaning the ingested data to ensure it is accurate, complete, and consistent. This involves handling missing values, such as the price of product ID 4 and the stock of product ID 8. We can either remove these rows or impute the missing values using various strategies like mean, median, or interpolation. Additionally, we will check for any duplicate rows or inconsistencies in the data, such as invalid dates or categories.
+
+## Stage 3: EDA & Visualization
+The third stage involves exploratory data analysis (EDA) and visualization to understand the distribution of the data and identify patterns or trends. We will use various statistical methods and visualization tools, such as histograms, scatter plots, and bar charts, to analyze the relationships between different features, such as price vs. rating, category vs. stock, and launch date vs. reviews. This stage will help us better understand the data and identify potential areas for feature engineering.
+
+## Stage 4: Feature Engineering
+The fourth stage involves creating new features from the existing ones to improve the quality and relevance of the data. For example, we can create a new feature for the average rating per category, or calculate the time since launch for each product. We can also encode categorical variables, such as category, into numerical values using techniques like one-hot encoding or label encoding. This stage will help us transform the data into a more suitable format for modeling.
+
+## Stage 5: Modeling & Evaluation
+The final stage involves building and evaluating machine learning models to analyze the data and make predictions. Depending on the specific problem we want to solve, we can use various algorithms, such as regression for predicting prices or classification for predicting product categories. We will split the data into training and testing sets, train the models, and evaluate their performance using metrics like accuracy, precision, recall, and F1 score. We will also tune hyperparameters to optimize the models' performance.
+
+## Key Findings Summary
+* The dataset contains a mix of numerical and categorical features, requiring different handling and processing strategies.
+* There are missing values in the dataset, which need to be addressed through imputation or removal to ensure data quality.
+* The data shows potential relationships between features like price, rating, and category, which can be explored further through EDA and visualization.
+* Feature engineering can help create new insights and improve the relevance of the data for machine learning modeling.
+* The dataset can be used for various predictive modeling tasks, such as predicting product prices, categories, or ratings, depending on the specific problem and requirements.
+
+
+============================================================
+PROMPT 5: Instruction with Constraints
+============================================================
+To clean the provided dataset, consider the following suggestions, prioritized by impact:
+
+**High Impact:**
+* Handle missing values: 
+  * Replace missing 'price' and 'stock' values with the mean or median of the respective columns.
+* Correct data types: 
+  * Ensure 'price' and 'stock' are numeric, 'launch_date' is datetime, and 'category' is categorical.
+* Fix inconsistencies: 
+  * Standardize 'category' names to prevent duplicates (e.g., 'Electronics' and 'electronics').
+
+**Medium Impact:**
+* Remove duplicates: 
+  * If there are duplicate 'product_id' entries, consider keeping the most recent entry based on 'launch_date'.
+* Handle outliers: 
+  * Identify and correct any unusual values in 'price', 'stock', or 'reviews' that may affect analysis.
+
+**Low Impact:**
+* Data normalization: 
+  * Normalize 'price' and 'stock' to a common scale to facilitate comparison.
+* Data transformation: 
+  * Convert 'launch_date' to a more usable format, such as a timestamp or month/year.
+
+
+============================================================
+PROMPT 6: Few-Shot Prompting
+============================================================
+--- ANALYSIS OUTPUT ---
+
+- Columns: 
+  - product_id (numeric)
+  - product_name (string)
+  - category (categorical)
+  - price (numeric, 1 missing)
+  - stock (numeric, 1 missing)
+  - rating (numeric)
+  - reviews (numeric)
+  - discount_percent (numeric)
+  - launch_date (datetime)
+
+- Missing values: 
+  - 1 in 'price' column
+  - 1 in 'stock' column
+
+- Insight: 
+  - Electronics category has the highest average price and rating.
+  - Products with higher discount percentages tend to have more reviews.
+  - There is a correlation between the number of reviews and the rating of a product.
+
+- Action: 
+  - Impute missing price with the median price of similar products in the same category.
+  - Impute missing stock with the mean stock of similar products in the same category.
+  - Consider further analysis of the relationship between discount percentages, reviews, and ratings to optimize pricing and marketing strategies.
+  - Use the launch_date column to analyze seasonal trends and product performance over time.
+

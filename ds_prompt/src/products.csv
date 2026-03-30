@@ -1,0 +1,16 @@
+product_id,product_name,category,price,stock,rating,reviews,discount_percent,launch_date
+1,Wireless Headphones,Electronics,2999,150,4.5,320,10,2023-01-15
+2,Running Shoes,Footwear,4599,80,4.2,210,5,2022-11-20
+3,Coffee Maker,Kitchen,1899,200,4.7,540,15,2023-03-10
+4,Yoga Mat,Sports,,60,3.9,95,0,2023-02-28
+5,Laptop Stand,Electronics,1299,300,4.6,410,8,2022-09-05
+6,Water Bottle,Sports,599,500,4.3,780,0,2022-06-01
+7,Desk Lamp,Home Decor,899,120,4.1,185,12,2023-04-18
+8,Protein Powder,Health,2499,,4.4,620,20,2022-12-10
+9,Sunglasses,Accessories,1599,90,3.8,140,5,2023-01-30
+10,Bluetooth Speaker,Electronics,3499,110,4.8,890,10,2022-08-22
+11,Notebook Set,Stationery,299,1000,4.0,230,0,2023-05-01
+12,Face Moisturizer,Beauty,799,400,4.5,560,18,2022-10-15
+13,Smart Watch,Electronics,,75,4.6,320,0,2023-03-25
+14,Kitchen Knife Set,Kitchen,2799,50,4.9,180,5,2022-07-08
+15,Resistance Bands,Sports,499,350,4.2,410,10,2023-02-14
