@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 import time
-from config import get_client
-from prompts import prompt1, prompt2, prompt3, prompt4, prompt5, prompt6
+from src.config import get_client
+from src.prompts import prompt1, prompt2, prompt3, prompt4, prompt5, prompt6
 
 # ─────────────────────────────────────────────
 # Base path setup
