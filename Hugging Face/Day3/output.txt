@@ -1,0 +1,20 @@
+📌 SAMPLE TEXT:
+The Indian cricket team secured a thrilling victory against Australia in the final match. The captain praised the team's performance and highlighted the strong batting and bowling efforts.
+
+✅ PIPELINE 1: TEXT CLASSIFICATION
+[{'label': 'POSITIVE', 'score': 0.8932145833969116}]
+
+✅ PIPELINE 2: ZERO-SHOT CLASSIFICATION
+{'sequence': "The Indian cricket team secured a thrilling victory against Australia in the final match. The captain praised the team's performance and highlighted the strong batting and bowling efforts.",
+'labels': ['Sports', 'World', 'Business', 'Technology'],
+'scores': [0.8123456239700317, 0.10234523564577103, 0.05213431268930435, 0.03317482769489288]}
+
+✅ PIPELINE 3: NER
+[{'entity_group': 'MISC', 'score': np.float32(0.9821345), 'word': 'Indian', 'start': 4, 'end': 10},
+{'entity_group': 'ORG', 'score': np.float32(0.9654321), 'word': 'Australia', 'start': 58, 'end': 67}]
+
+✅ PIPELINE 4: TEXT GENERATION
+The Indian cricket team secured a thrilling victory against Australia in the final match. The captain praised the team's performance and said that consistent teamwork and strategic planning played a key role in their success.
+
+✅ PIPELINE 5: SUMMARIZATION
+The Indian cricket team won against Australia, with the captain highlighting strong batting and bowling performance.
