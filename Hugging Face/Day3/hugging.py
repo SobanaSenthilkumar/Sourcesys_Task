@@ -1,10 +1,10 @@
 from transformers import pipeline
 from datasets import load_dataset
 
-# Open file to save output
+
 file = open("output.txt", "w", encoding="utf-8")
 
-# Load dataset
+
 dataset = load_dataset("ag_news")
 
 sample_text = dataset["train"][0]["text"]
