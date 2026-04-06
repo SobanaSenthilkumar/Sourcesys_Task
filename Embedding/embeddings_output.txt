@@ -1,0 +1,14 @@
+===== SENTENCE EMBEDDINGS =====
+
+Sentence 1: Deep learning models are powerful
+Embedding (first 5 values): [-0.03803522 -0.09571502  0.06638358 -0.00338906 -0.02391153]
+--------------------------------------------------
+Sentence 2: Neural networks can learn patterns
+Embedding (first 5 values): [-0.08445559 -0.07521347  0.05083234 -0.01856728 -0.02602771]
+--------------------------------------------------
+Sentence 3: Today the temperature is very high
+Embedding (first 5 values): [ 0.01503475  0.08585653  0.01873709  0.06740326 -0.0176071 ]
+--------------------------------------------------
+Sentence 4: It is a hot summer day
+Embedding (first 5 values): [-0.01724861  0.02328503  0.03837828  0.08415438  0.0415034 ]
+--------------------------------------------------
