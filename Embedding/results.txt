@@ -1,0 +1,10 @@
+===== VECTOR SEARCH RESULTS =====
+
+Query: deep learning techniques
+
+1. Deep learning is powerful
+   Similarity Score: 0.6819
+
+2. Machine learning is important
+   Similarity Score: 0.4892
+
