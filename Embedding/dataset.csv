@@ -1,0 +1,16 @@
+id,text
+1,Machine learning helps computers learn from data
+2,Deep learning is a subset of machine learning
+3,Natural language processing deals with text and speech
+4,Computer vision enables machines to see and interpret images
+5,FAISS is used for fast similarity search in vector databases
+6,Python is widely used for data science and AI
+7,Pandas is a library for data manipulation and analysis
+8,NumPy provides support for numerical computations
+9,Scikit-learn is used for machine learning models
+10,Neural networks are inspired by the human brain
+11,Transformers are powerful models for NLP tasks
+12,Clustering groups similar data points together
+13,Classification assigns labels to data
+14,Regression predicts continuous values
+15,Data preprocessing improves model performance

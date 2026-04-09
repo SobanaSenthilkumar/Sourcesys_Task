@@ -1,10 +1,13 @@
 ===== VECTOR SEARCH RESULTS =====
 
-Query: deep learning techniques
+Query: Transformers are powerful models for NLP tasks
 
-1. Deep learning is powerful
-   Similarity Score: 0.6819
+1. Transformers are powerful models for NLP tasks
+   Similarity Score: 1.0000
 
-2. Machine learning is important
-   Similarity Score: 0.4892
+2. Natural language processing deals with text and speech
+   Similarity Score: 0.5346
+
+3. Machine learning helps computers learn from data
+   Similarity Score: 0.3071
 
